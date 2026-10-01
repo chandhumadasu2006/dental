@@ -1,0 +1,2054 @@
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SmileCare Dental Clinic | Healthy Smiles. Confident You. | Jubilee Hills, Hyderabad</title>
+<meta name="description" content="SmileCare Dental Clinic in Jubilee Hills, Hyderabad offers comprehensive dental care — general dentistry, teeth whitening, dental implants, braces & aligners, root canal treatment and pediatric dentistry. Book your appointment on WhatsApp today." />
+<meta name="keywords" content="dentist in Hyderabad, dental clinic Jubilee Hills, dental implants Hyderabad, teeth whitening, braces, root canal, pediatric dentist, SmileCare Dental Clinic" />
+<meta name="author" content="SmileCare Dental Clinic" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#0C4A4E" />
+<link rel="canonical" href="https://www.smilecareclinic.example/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="SmileCare Dental Clinic | Healthy Smiles. Confident You." />
+<meta property="og:description" content="Comprehensive dental care for you and your family, delivered with modern technology and a gentle approach. Jubilee Hills, Hyderabad." />
+<meta property="og:image" content="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80" />
+<meta property="og:url" content="https://www.smilecareclinic.example/" />
+<meta property="og:site_name" content="SmileCare Dental Clinic" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="SmileCare Dental Clinic | Healthy Smiles. Confident You." />
+<meta name="twitter:description" content="Premium dental care in Jubilee Hills, Hyderabad. Book your appointment on WhatsApp." />
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          deep: '#0C4A4E',
+          teal: '#127A76',
+          aqua: '#E4F4F2',
+          aqua2: '#CDEBE7',
+          softblue: '#DCEBF7',
+          navy: '#0B2239',
+          ink: '#1B3550',
+          wa: '#25D366',
+          waDark: '#128C7E',
+          sand: '#F7FAFA'
+        },
+        fontFamily: {
+          display: ['Fraunces', 'Georgia', 'serif'],
+          sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'Segoe UI', 'sans-serif']
+        },
+        boxShadow: {
+          soft: '0 18px 45px -22px rgba(12,74,78,0.35)',
+          lift: '0 30px 60px -28px rgba(12,74,78,0.45)',
+          glow: '0 12px 30px -12px rgba(37,211,102,0.55)'
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    color: #0B2239;
+    background: #FFFFFF;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  section { scroll-margin-top: 92px; }
+
+  ::selection { background: #127A76; color: #fff; }
+
+  /* ---------- Scroll reveal ---------- */
+  [data-reveal]{
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity .85s cubic-bezier(.22,1,.36,1), transform .85s cubic-bezier(.22,1,.36,1);
+    transition-delay: var(--d, 0ms);
+    will-change: transform, opacity;
+  }
+  [data-reveal="left"]{ transform: translateX(-32px); }
+  [data-reveal="right"]{ transform: translateX(32px); }
+  [data-reveal="scale"]{ transform: scale(.94); }
+  [data-reveal].is-visible{ opacity: 1; transform: none; }
+
+  /* ---------- Kinetic headline ---------- */
+  .kinetic-word{
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(110%) rotate(4deg);
+    animation: wordUp .95s cubic-bezier(.19,1,.22,1) forwards;
+  }
+  @keyframes wordUp {
+    to { opacity: 1; transform: translateY(0) rotate(0); }
+  }
+  .kinetic-line{ overflow: hidden; display: inline-block; padding-bottom: .08em; }
+
+  /* ---------- Light sweep on cards ---------- */
+  .sweep{ position: relative; overflow: hidden; }
+  .sweep::after{
+    content:"";
+    position:absolute;
+    inset: -40% -60%;
+    background: linear-gradient(105deg, transparent 38%, rgba(255,255,255,.55) 48%, transparent 60%);
+    transform: translateX(-120%) rotate(2deg);
+    transition: transform .9s cubic-bezier(.22,1,.36,1);
+    pointer-events: none;
+  }
+  .sweep:hover::after{ transform: translateX(120%) rotate(2deg); }
+
+  /* ---------- Floating / ambient ---------- */
+  .float-slow{ animation: floaty 9s ease-in-out infinite; }
+  .float-slower{ animation: floaty 13s ease-in-out infinite reverse; }
+  @keyframes floaty{
+    0%,100%{ transform: translate3d(0,0,0) rotate(0deg); }
+    50%{ transform: translate3d(0,-16px,0) rotate(1.2deg); }
+  }
+  .orbit{ animation: orbit 22s linear infinite; }
+  @keyframes orbit{ to { transform: rotate(360deg); } }
+
+  /* ---------- Gradient ambient blob (soft, non-neon) ---------- */
+  .ambient{
+    position:absolute; border-radius:9999px; filter: blur(46px); opacity:.55; pointer-events:none;
+  }
+
+  /* ---------- Marquee ---------- */
+  .marquee{ display:flex; width:max-content; animation: slide 34s linear infinite; }
+  .marquee:hover{ animation-play-state: paused; }
+  @keyframes slide{ from{ transform: translateX(0);} to{ transform: translateX(-50%);} }
+
+  /* ---------- Magnetic buttons ---------- */
+  .magnetic{ transition: transform .35s cubic-bezier(.22,1,.36,1), box-shadow .35s ease, background-color .3s ease, color .3s ease; }
+
+  /* ---------- Nav underline ---------- */
+  .nav-link{ position: relative; }
+  .nav-link::after{
+    content:""; position:absolute; left:0; bottom:-6px; height:2px; width:100%;
+    background: #127A76; transform: scaleX(0); transform-origin: right;
+    transition: transform .38s cubic-bezier(.22,1,.36,1);
+    border-radius: 2px;
+  }
+  .nav-link:hover::after, .nav-link.active::after{ transform: scaleX(1); transform-origin: left; }
+
+  /* ---------- FAQ accordion ---------- */
+  .faq-body{ max-height: 0; overflow: hidden; opacity: 0; transition: max-height .5s cubic-bezier(.22,1,.36,1), opacity .35s ease, margin .4s ease; }
+  .faq-item.open .faq-body{ max-height: 320px; opacity: 1; margin-top: .85rem; }
+  .faq-item.open .faq-icon{ transform: rotate(45deg); background:#127A76; color:#fff; border-color:#127A76; }
+  .faq-icon{ transition: transform .45s cubic-bezier(.22,1,.36,1), background-color .3s, color .3s, border-color .3s; }
+
+  /* ---------- Before / After ---------- */
+  .ba-wrap{ position:relative; overflow:hidden; border-radius:22px; cursor: ew-resize; user-select:none; touch-action: pan-y; }
+  .ba-after{ position:absolute; inset:0; width:50%; overflow:hidden; }
+  .ba-after img{ width:100%; height:100%; object-fit:cover; }
+  .ba-handle{
+    position:absolute; top:0; bottom:0; width:3px; background:#fff; left:50%; transform:translateX(-50%);
+    box-shadow: 0 0 22px rgba(0,0,0,.32);
+  }
+  .ba-knob{
+    position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    width:46px; height:46px; border-radius:9999px; background:#fff; color:#0C4A4E;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow: 0 12px 28px rgba(12,74,78,.35);
+  }
+
+  /* ---------- Ticker / progress ---------- */
+  #progress{ transform-origin:left; transform: scaleX(0); }
+
+  /* ---------- Header state ---------- */
+  #header{ transition: background-color .45s ease, box-shadow .45s ease, padding .45s ease, backdrop-filter .4s ease; }
+  #header.scrolled{ background: rgba(255,255,255,.88); backdrop-filter: blur(16px) saturate(160%); box-shadow: 0 12px 34px -22px rgba(11,34,57,.35); border-bottom:1px solid rgba(12,74,78,.09); }
+
+  /* ---------- Mobile menu ---------- */
+  #mobileMenu{ max-height: 0; overflow:hidden; opacity: 0; transition: max-height .55s cubic-bezier(.22,1,.36,1), opacity .35s ease; }
+  #mobileMenu.open{ max-height: 620px; opacity: 1; }
+  #mobileMenu a{ opacity:0; transform: translateY(12px); transition: opacity .5s ease, transform .5s cubic-bezier(.22,1,.36,1); }
+  #mobileMenu.open a{ opacity:1; transform:none; }
+
+  /* ---------- Misc ---------- */
+  .grain{
+    background-image:
+      radial-gradient(rgba(12,74,78,.055) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .card-hover{ transition: transform .5s cubic-bezier(.22,1,.36,1), box-shadow .5s ease, border-color .4s ease; }
+  .card-hover:hover{ transform: translateY(-8px); box-shadow: 0 34px 70px -34px rgba(12,74,78,.55); border-color: rgba(18,122,118,.35); }
+
+  .star{ color:#F2B33D; }
+  .btn-wa{ background: linear-gradient(135deg, #25D366 0%, #1BAE5A 100%); }
+  .btn-wa:hover{ filter: brightness(1.05); box-shadow: 0 18px 38px -14px rgba(37,211,102,.65); }
+
+  .pill{ backdrop-filter: blur(10px); }
+
+  /* Hero image reveal mask */
+  .mask-reveal{ clip-path: inset(0 0 100% 0); animation: maskUp 1.15s cubic-bezier(.19,1,.22,1) .25s forwards; }
+  @keyframes maskUp{ to{ clip-path: inset(0 0 0% 0); } }
+
+  .ring-anim{ animation: ringPulse 3.2s ease-out infinite; }
+  @keyframes ringPulse{
+    0%{ transform: scale(.85); opacity:.55; }
+    80%{ transform: scale(1.55); opacity:0; }
+    100%{ opacity:0; }
+  }
+
+  .num-count{ font-variant-numeric: tabular-nums; }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce){
+    *, *::before, *::after{
+      animation-duration: .001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: .001ms !important;
+      scroll-behavior: auto !important;
+    }
+    [data-reveal]{ opacity:1 !important; transform:none !important; }
+    .kinetic-word{ opacity:1; transform:none; }
+    .mask-reveal{ clip-path:none; }
+  }
+
+  /* Focus visibility */
+  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible{
+    outline: 3px solid #127A76; outline-offset: 3px; border-radius: 8px;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar{ display:none; }
+  .scrollbar-hide{ -ms-overflow-style:none; scrollbar-width:none; }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "SmileCare Dental Clinic",
+  "description": "Comprehensive dental care for you and your family, delivered with modern technology and a gentle approach.",
+  "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80",
+  "telephone": "+91 98765 43210",
+  "email": "hello@smilecareclinic.example",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "42, Road No. 36, Jubilee Hills",
+    "addressLocality": "Hyderabad",
+    "addressRegion": "Telangana",
+    "postalCode": "500033",
+    "addressCountry": "IN"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "09:00",
+      "closes": "20:00"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "486"
+  }
+}
+</script>
+</head>
+
+<body class="font-sans antialiased">
+
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-3 focus:left-3 focus:z-[100] focus:bg-deep focus:text-white focus:px-4 focus:py-2 focus:rounded-lg">Skip to main content</a>
+
+<!-- Scroll progress -->
+<div class="fixed top-0 left-0 right-0 h-[3px] z-[60] bg-transparent">
+  <div id="progress" class="h-full bg-gradient-to-r from-teal via-deep to-wa"></div>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header id="header" class="fixed top-0 inset-x-0 z-50 py-3">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between gap-4">
+      <!-- Logo -->
+      <a href="#home" class="flex items-center gap-3 group shrink-0">
+        <span class="relative w-11 h-11 rounded-2xl bg-gradient-to-br from-teal to-deep flex items-center justify-center shadow-soft">
+          <svg viewBox="0 0 24 24" class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 2.6c-1.9 0-2.9-1.1-4.9-1.1C4.4 1.5 3 3.2 3 6.1c0 4 1.5 6.1 2.5 9.1.7 2.1 1 5.2 2 5.2s1.1-3 1.9-5.1c.4-1 1.1-1.5 2.6-1.5s2.2.5 2.6 1.5c.8 2.1.9 5.1 1.9 5.1s1.3-3.1 2-5.2c1-3 2.5-5.1 2.5-9.1 0-2.9-1.4-4.6-4.1-4.6-2 0-3 1.1-4.9 1.1z"/>
+            <path d="M8.7 6.4c.9-.7 2.1-1 3.3-1" opacity=".7"/>
+          </svg>
+          <span class="absolute inset-0 rounded-2xl ring-2 ring-teal/25 ring-anim"></span>
+        </span>
+        <span class="leading-tight">
+          <span class="block font-display text-[19px] sm:text-[21px] font-600 text-deep tracking-tight">SmileCare</span>
+          <span class="block text-[10px] sm:text-[11px] uppercase tracking-[0.22em] text-teal font-600">Dental Clinic</span>
+        </span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="hidden lg:flex items-center gap-7 text-[14.5px] font-500 text-ink" aria-label="Primary">
+        <a href="#home" class="nav-link hover:text-deep transition-colors">Home</a>
+        <a href="#about" class="nav-link hover:text-deep transition-colors">About</a>
+        <a href="#treatments" class="nav-link hover:text-deep transition-colors">Treatments</a>
+        <a href="#doctors" class="nav-link hover:text-deep transition-colors">Doctors</a>
+        <a href="#testimonials" class="nav-link hover:text-deep transition-colors">Testimonials</a>
+        <a href="#faq" class="nav-link hover:text-deep transition-colors">FAQ</a>
+        <a href="#contact" class="nav-link hover:text-deep transition-colors">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-2 sm:gap-3">
+        <a href="tel:+919876543210" class="hidden xl:flex items-center gap-2 text-[14px] font-600 text-deep hover:text-teal transition-colors">
+          <svg viewBox="0 0 24 24" class="w-[18px] h-[18px]" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          +91 98765 43210
+        </a>
+
+        <a href="https://wa.me/919876543210?text=Hello%20SmileCare%20Dental%20Clinic!%20I%27d%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener" class="magnetic btn-wa hidden sm:inline-flex items-center gap-2 rounded-full text-white px-5 py-2.5 text-[14px] font-700 shadow-glow">
+          <svg viewBox="0 0 32 32" class="w-[18px] h-[18px]" fill="currentColor" aria-hidden="true"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71zm0 23.2c-1.99 0-3.94-.53-5.65-1.54l-.4-.24-4.19 1.1 1.12-4.08-.26-.42a10.5 10.5 0 0 1-1.61-5.62c0-5.83 4.75-10.58 10.59-10.58 5.83 0 10.58 4.75 10.58 10.58 0 5.84-4.75 10.9-10.18 10.9zm5.82-7.95c-.32-.16-1.89-.93-2.18-1.04-.29-.11-.5-.16-.72.16-.21.32-.82 1.04-1.01 1.25-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.89-1.78-2.21-.19-.32-.02-.5.14-.66.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.52-.54-.72-.55l-.61-.01c-.21 0-.56.08-.85.4-.29.32-1.11 1.09-1.11 2.65s1.14 3.08 1.3 3.29c.16.21 2.24 3.42 5.43 4.8.76.33 1.35.52 1.81.67.76.24 1.45.21 2 .13.61-.09 1.89-.77 2.15-1.52.27-.75.27-1.39.19-1.52-.08-.13-.29-.21-.61-.37z"/></svg>
+          Book Appointment
+        </a>
+
+        <!-- Mobile toggle -->
+        <button id="menuBtn" type="button" class="lg:hidden w-11 h-11 rounded-xl border border-deep/15 bg-white/70 flex items-center justify-center text-deep" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <svg id="menuIcon" viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round">
+            <path d="M4 7h16M4 12h16M4 17h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div id="mobileMenu" class="lg:hidden px-4 sm:px-6">
+    <div class="mt-3 rounded-2xl bg-white shadow-lift border border-deep/10 p-4">
+      <nav class="flex flex-col divide-y divide-deep/8" aria-label="Mobile">
+        <a href="#home" class="py-3 text-[15px] font-600 text-ink" style="transition-delay:.05s">Home</a>
+        <a href="#about" class="py-3 text-[15px] font-600 text-ink" style="transition-delay:.09s">About</a>
+        <a href="#treatments" class="py-3 text-[15px] font-600 text-ink" style="transition-delay:.13s">Treatments</a>
+        <a href="#doctors" class="py-3 text-[15px] font-600 text-ink" style="transition-delay:.17s">Doctors</a>
+        <a href="#testimonials" class="py-3 text-[15px] font-600 text-ink" style="transition-delay:.21s">Testimonials</a>
+        <a href="#faq" class="py-3 text-[15px] font-600 text-ink" style="transition-delay:.25s">FAQ</a>
+        <a href="#contact" class="py-3 text-[15px] font-600 text-ink" style="transition-delay:.29s">Contact</a>
+      </nav>
+      <a href="https://wa.me/919876543210?text=Hello%20SmileCare%20Dental%20Clinic!%20I%27d%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener"
+         class="mt-4 btn-wa w-full inline-flex items-center justify-center gap-2 rounded-full text-white px-5 py-3.5 text-[15px] font-700" style="transition-delay:.33s">
+        <svg viewBox="0 0 32 32" class="w-5 h-5" fill="currentColor" aria-hidden="true"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71zm5.82 20.85c-1.99 0-3.94-.53-5.65-1.54l-.4-.24-4.19 1.1 1.12-4.08-.26-.42a10.5 10.5 0 0 1-1.61-5.62c0-5.83 4.75-10.58 10.59-10.58 5.83 0 10.58 4.75 10.58 10.58 0 5.84-4.75 10.9-10.18 10.9z"/></svg>
+        Book on WhatsApp
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section id="home" class="relative pt-28 sm:pt-32 lg:pt-36 pb-16 lg:pb-24 overflow-hidden">
+  <!-- ambient -->
+  <div class="ambient" style="width:520px;height:520px;background:#CDEBE7;top:-180px;left:-160px;"></div>
+  <div class="ambient" style="width:460px;height:460px;background:#DCEBF7;top:120px;right:-180px;opacity:.6;"></div>
+  <div class="absolute inset-0 grain opacity-60 pointer-events-none"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-14 items-center">
+
+      <!-- Copy -->
+      <div class="relative z-10">
+        <div class="inline-flex items-center gap-2.5 rounded-full bg-white/80 border border-teal/15 px-4 py-2 shadow-soft mb-7">
+          <span class="relative flex h-2.5 w-2.5">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-wa opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-wa"></span>
+          </span>
+          <span class="text-[12px] sm:text-[13px] font-600 text-deep tracking-wide">Now accepting new patients &middot; Jubilee Hills, Hyderabad</span>
+        </div>
+
+        <h1 class="font-display text-[42px] leading-[1.03] sm:text-[58px] lg:text-[66px] xl:text-[72px] font-600 text-navy tracking-[-0.02em]">
+          <span class="kinetic-line"><span class="kinetic-word" style="animation-delay:.05s">Your</span></span>
+          <span class="kinetic-line"><span class="kinetic-word" style="animation-delay:.12s">Smile</span></span>
+          <span class="kinetic-line"><span class="kinetic-word" style="animation-delay:.19s">Deserves</span></span>
+          <br class="hidden sm:block" />
+          <span class="kinetic-line"><span class="kinetic-word text-teal" style="animation-delay:.26s">the</span></span>
+          <span class="kinetic-line"><span class="kinetic-word text-teal" style="animation-delay:.33s">Best</span></span>
+          <span class="kinetic-line"><span class="kinetic-word text-teal" style="animation-delay:.4s">Care.</span></span>
+        </h1>
+
+        <p class="mt-6 text-[17px] sm:text-[19px] leading-relaxed text-ink/85 max-w-[560px]" data-reveal style="--d:250ms">
+          Comprehensive dental care for you and your family, delivered with modern technology and a gentle approach.
+        </p>
+
+        <div class="mt-8 flex flex-wrap items-center gap-3 sm:gap-4" data-reveal style="--d:340ms">
+          <a href="https://wa.me/919876543210?text=Hello%20SmileCare%20Dental%20Clinic!%20I%27d%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener"
+             class="magnetic btn-wa inline-flex items-center gap-2.5 rounded-full text-white px-7 py-4 text-[15px] sm:text-[16px] font-700 shadow-glow">
+            <svg viewBox="0 0 32 32" class="w-5 h-5" fill="currentColor" aria-hidden="true"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71zm5.82 20.85c-1.99 0-3.94-.53-5.65-1.54l-.4-.24-4.19 1.1 1.12-4.08-.26-.42a10.5 10.5 0 0 1-1.61-5.62c0-5.83 4.75-10.58 10.59-10.58 5.83 0 10.58 4.75 10.58 10.58 0 5.84-4.75 10.9-10.18 10.9z"/></svg>
+            Book on WhatsApp
+          </a>
+          <a href="#treatments" class="magnetic inline-flex items-center gap-2.5 rounded-full border border-deep/18 bg-white/70 px-7 py-4 text-[15px] sm:text-[16px] font-600 text-deep hover:border-teal hover:text-teal hover:bg-white">
+            Explore Treatments
+            <svg viewBox="0 0 24 24" class="w-4.5 h-4.5" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <!-- Trust stats -->
+        <div class="mt-10 grid grid-cols-3 gap-3 sm:gap-5 max-w-[520px]" data-reveal style="--d:430ms">
+          <div class="rounded-2xl bg-white/75 border border-deep/10 px-4 py-4">
+            <div class="font-display text-[27px] sm:text-[32px] font-600 text-deep num-count" data-count="15" data-suffix="+">0</div>
+            <div class="text-[11.5px] sm:text-[12.5px] text-ink/70 font-500 mt-0.5">Years of Care</div>
+          </div>
+          <div class="rounded-2xl bg-white/75 border border-deep/10 px-4 py-4">
+            <div class="font-display text-[27px] sm:text-[32px] font-600 text-deep num-count" data-count="12" data-suffix="K+">0</div>
+            <div class="text-[11.5px] sm:text-[12.5px] text-ink/70 font-500 mt-0.5">Happy Smiles</div>
+          </div>
+          <div class="rounded-2xl bg-white/75 border border-deep/10 px-4 py-4">
+            <div class="font-display text-[27px] sm:text-[32px] font-600 text-deep num-count" data-count="4.9" data-decimals="1" data-suffix="★">0</div>
+            <div class="text-[11.5px] sm:text-[12.5px] text-ink/70 font-500 mt-0.5">Patient Rating</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero visual -->
+      <div class="relative">
+        <div class="relative rounded-[30px] overflow-hidden shadow-lift bg-gradient-to-br from-deep to-teal mask-reveal">
+          <img
+            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1100&q=80"
+            alt="Dentist providing gentle dental care to a patient at SmileCare Dental Clinic"
+            class="w-full h-[380px] sm:h-[500px] lg:h-[580px] object-cover"
+            loading="eager" decoding="async"
+            onerror="this.style.opacity=0" />
+          <div class="absolute inset-0 bg-gradient-to-t from-deep/45 via-transparent to-transparent"></div>
+        </div>
+
+        <!-- floating cards -->
+        <div class="absolute -left-2 sm:-left-8 top-8 sm:top-16 float-slow">
+          <div class="pill rounded-2xl bg-white/92 border border-white/60 shadow-lift px-4 py-3.5 flex items-center gap-3">
+            <span class="w-10 h-10 rounded-xl bg-aqua flex items-center justify-center text-deep">
+              <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 8.6a5.5 5.5 0 0 0-9.3-3.9 5.5 5.5 0 0 0-9.3 3.9c0 6.2 9.3 11.4 9.3 11.4s9.3-5.2 9.3-11.4z"/></svg>
+            </span>
+            <div>
+              <div class="text-[13px] font-700 text-navy leading-tight">Painless Dentistry</div>
+              <div class="text-[11px] text-ink/65">Gentle, anxiety-free care</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute -right-1 sm:-right-6 bottom-10 sm:bottom-16 float-slower">
+          <div class="pill rounded-2xl bg-white/92 border border-white/60 shadow-lift px-4 py-3.5">
+            <div class="flex items-center gap-2">
+              <svg viewBox="0 0 24 24" class="w-4.5 h-4.5 text-teal" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.6 2.6L16 9.6"/></svg>
+              <div class="text-[13px] font-700 text-navy">ISO-Standard Sterilisation</div>
+            </div>
+            <div class="text-[11px] text-ink/65 mt-1">100% single-use safety protocols</div>
+          </div>
+        </div>
+
+        <!-- orbiting dot ring -->
+        <div class="absolute -bottom-8 -left-6 w-28 h-28 hidden sm:block">
+          <div class="absolute inset-0 rounded-full border border-teal/25 orbit"></div>
+          <div class="absolute top-1/2 left-1/2 w-2.5 h-2.5 rounded-full bg-teal -translate-x-1/2 -translate-y-1/2"></div>
+          <div class="absolute top-0 left-1/2 w-2 h-2 rounded-full bg-wa -translate-x-1/2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Marquee trust strip -->
+  <div class="relative mt-16 lg:mt-20 border-y border-deep/10 bg-white/70 py-5 overflow-hidden">
+    <div class="marquee items-center gap-10 sm:gap-14 text-deep/70">
+      <!-- duplicated set -->
+      <div class="flex items-center gap-10 sm:gap-14 pr-10 sm:pr-14">
+        <span class="flex items-center gap-2.5 whitespace-nowrap text-[13px] sm:text-[14px] font-600 uppercase tracking-[0.16em]"><svg viewBox="0 0 24 24" class="w-4 h-4 text-teal" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>15+ Years Experience</span>
+        <span class="flex items-center gap-2.5 whitespace-nowrap text-[13px] sm:text-[14px] font-600 uppercase tracking-[0.16em]"><svg viewBox="0 0 24 24" class="w-4 h-4 text-teal" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4.5 8-11V5l-8-3-8 3v6c0 6.5 8 11 8 11z"/></svg>Advanced Sterilisation</span>
+        <span class="flex items-center gap-2.5 whitespace-nowrap text-[13px] sm:text-[14px] font-600 uppercase tracking-[0.16em]"><svg viewBox="0 0 24 24" class="w-4 h-4 text-teal" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Same-Day Emergency</span>
+        <span class="flex items-center gap-2.5 whitespace-nowrap text-[13px] sm:text-[14px] font-600 uppercase tracking-[0.16em]"><svg viewBox="0 0 24 24" class="w-4 h-4 text-teal" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>Family Friendly</span>
+        <span class="flex items-center gap-2.5 whitespace-nowrap text-[13px] sm:text-[14px] font-600 uppercase tracking-[0.16em]"><svg viewBox="0 0 24 24" class="w-4 h-4 text-teal" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 2v4M16 2v4M3 10h18"/></svg>Flexible Scheduling</span>
+        <span class="flex items-center gap-2.5 whitespace-nowrap text-[13px] sm:text-[14px] font-600 uppercase tracking-[0.16em]"><svg viewBox="0 0 24 24" class="w-4 h-4 text-teal" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.6 2.6L16 9.6"/></svg>Transparent Pricing</span>
+      </div>
+      <div class="flex items-center gap-10 sm:gap-14 pr-10 sm:pr-14" aria-hidden="true">
+        <span class="flex items-center gap-2.5 whitespace-nowrap text-[13px] sm:text-[14px] font-600 uppercase tracking-[0.16em]"><svg viewBox="0 0 24 24" class="w-4 h-4 text-teal" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>15+ Years Experience</span>
+        <span class="flex items-center gap-2.5 whitespace-nowrap text-[13px] sm:text-[14px] font-600 uppercase tracking-[0.16em]"><svg viewBox="0 0 24 24" class="w-4 h-4 text-teal" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4.5 8-11V5l-8-3-8 3v6c0 6.5 8 11 8 11z"/></svg>Advanced Sterilisation</span>
+        <span class="flex items-center gap-2.5 whitespace-nowrap text-[13px] sm:text-[14px] font-600 uppercase tracking-[0.16em]"><svg viewBox="0 0 24 24" class="w-4 h-4 text-teal" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Same-Day Emergency</span>
+        <span class="flex items-center gap-2.5 whitespace-nowrap text-[13px] sm:text-[14px] font-600 uppercase tracking-[0.16em]"><svg viewBox="0 0 24 24" class="w-4 h-4 text-teal" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>Family Friendly</span>
+        <span class="flex items-center gap-2.5 whitespace-nowrap text-[13px] sm:text-[14px] font-600 uppercase tracking-[0.16em]"><svg viewBox="0 0 24 24" class="w-4 h-4 text-teal" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 2v4M16 2v4M3 10h18"/></svg>Flexible Scheduling</span>
+        <span class="flex items-center gap-2.5 whitespace-nowrap text-[13px] sm:text-[14px] font-600 uppercase tracking-[0.16em]"><svg viewBox="0 0 24 24" class="w-4 h-4 text-teal" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.6 2.6L16 9.6"/></svg>Transparent Pricing</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="relative py-20 lg:py-28 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+
+      <!-- Image composition -->
+      <div class="relative order-2 lg:order-1">
+        <div class="relative rounded-[28px] overflow-hidden shadow-lift bg-aqua" data-reveal="left">
+          <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1000&q=80"
+               alt="Modern dental treatment room at SmileCare Dental Clinic"
+               class="w-full h-[420px] sm:h-[520px] object-cover" loading="lazy" decoding="async" onerror="this.style.opacity=0" />
+        </div>
+        <div class="absolute -bottom-8 right-4 sm:right-10 w-[210px] sm:w-[250px] rounded-[22px] overflow-hidden shadow-lift border-4 border-white float-slow">
+          <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80"
+               alt="Sterilised modern dental instruments" class="w-full h-[150px] sm:h-[180px] object-cover" loading="lazy" decoding="async" onerror="this.style.opacity=0" />
+        </div>
+        <div class="absolute -top-5 -left-3 sm:-left-8 rounded-2xl bg-deep text-white px-5 py-4 shadow-lift float-slower">
+          <div class="font-display text-[26px] leading-none font-600"><span class="num-count" data-count="10" data-suffix="K+">0</span></div>
+          <div class="text-[11px] uppercase tracking-[0.18em] text-white/75 mt-1">Smiles transformed</div>
+        </div>
+      </div>
+
+      <!-- Copy -->
+      <div class="order-1 lg:order-2">
+        <div class="inline-flex items-center gap-2 rounded-full bg-aqua px-4 py-2 text-[12px] font-700 uppercase tracking-[0.18em] text-teal" data-reveal>
+          <span class="w-1.5 h-1.5 rounded-full bg-teal"></span> About SmileCare
+        </div>
+
+        <h2 class="mt-6 font-display text-[34px] sm:text-[46px] lg:text-[52px] leading-[1.08] font-600 text-navy tracking-[-0.02em]" data-reveal style="--d:80ms">
+          A dental home built on <span class="text-teal">trust</span>, technology &amp; warmth.
+        </h2>
+
+        <p class="mt-6 text-[16.5px] sm:text-[18px] leading-[1.75] text-ink/80" data-reveal style="--d:150ms">
+          SmileCare Dental Clinic is a multi-speciality dental practice in the heart of Jubilee Hills, Hyderabad.
+          Since our founding, we've believed that great dentistry is about more than teeth — it's about helping people
+          feel confident, comfortable and cared for at every visit.
+        </p>
+        <p class="mt-4 text-[15.5px] leading-[1.8] text-ink/70" data-reveal style="--d:210ms">
+          Our team combines advanced digital diagnostics, evidence-based treatment planning and a genuinely gentle
+          chairside manner. From your child's first check-up to a complete smile makeover, every detail — from
+          sterilisation to scheduling — is designed around your comfort.
+        </p>
+
+        <!-- Feature cards -->
+        <div class="mt-9 grid sm:grid-cols-3 gap-4">
+          <div class="sweep card-hover rounded-2xl border border-deep/10 bg-sand p-5" data-reveal style="--d:120ms">
+            <div class="w-11 h-11 rounded-xl bg-deep text-white flex items-center justify-center">
+              <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/><path d="M16 3.5a4 4 0 0 1 0 7"/></svg>
+            </div>
+            <h3 class="mt-4 text-[15px] font-700 text-navy leading-snug">Experienced Dental Professionals</h3>
+            <p class="mt-2 text-[13px] leading-relaxed text-ink/70">Specialist clinicians with 15+ years of combined clinical excellence.</p>
+          </div>
+
+          <div class="sweep card-hover rounded-2xl border border-deep/10 bg-sand p-5" data-reveal style="--d:190ms">
+            <div class="w-11 h-11 rounded-xl bg-teal text-white flex items-center justify-center">
+              <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4M7 9h4M7 12h7"/></svg>
+            </div>
+            <h3 class="mt-4 text-[15px] font-700 text-navy leading-snug">Modern Equipment</h3>
+            <p class="mt-2 text-[13px] leading-relaxed text-ink/70">Digital X-rays, rotary endodontics and precision implant systems.</p>
+          </div>
+
+          <div class="sweep card-hover rounded-2xl border border-deep/10 bg-sand p-5" data-reveal style="--d:260ms">
+            <div class="w-11 h-11 rounded-xl bg-wa text-white flex items-center justify-center">
+              <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 8.6a5.5 5.5 0 0 0-9.3-3.9 5.5 5.5 0 0 0-9.3 3.9c0 6.2 9.3 11.4 9.3 11.4s9.3-5.2 9.3-11.4z"/><path d="M9 12h6"/></svg>
+            </div>
+            <h3 class="mt-4 text-[15px] font-700 text-navy leading-snug">Patient-Centered Care</h3>
+            <p class="mt-2 text-[13px] leading-relaxed text-ink/70">Unhurried consultations, clear pricing and follow-up that follows through.</p>
+          </div>
+        </div>
+
+        <a href="#appointment" class="magnetic mt-8 inline-flex items-center gap-2.5 rounded-full bg-deep text-white px-7 py-4 text-[15px] font-700 shadow-soft hover:bg-teal" data-reveal style="--d:320ms">
+          Schedule Your Visit
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TREATMENTS ================= -->
+<section id="treatments" class="relative py-20 lg:py-28 bg-gradient-to-b from-aqua via-white to-white overflow-hidden">
+  <div class="absolute inset-0 grain opacity-50 pointer-events-none"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-2xl mx-auto text-center">
+      <div class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-[12px] font-700 uppercase tracking-[0.18em] text-teal shadow-soft" data-reveal>
+        <span class="w-1.5 h-1.5 rounded-full bg-teal"></span> Our Treatments
+      </div>
+      <h2 class="mt-6 font-display text-[34px] sm:text-[46px] lg:text-[52px] leading-[1.08] font-600 text-navy tracking-[-0.02em]" data-reveal style="--d:80ms">
+        Complete dental care, <span class="text-teal">under one roof</span>
+      </h2>
+      <p class="mt-5 text-[16.5px] sm:text-[18px] leading-[1.75] text-ink/75" data-reveal style="--d:150ms">
+        From preventive check-ups to advanced smile design — every treatment is planned around your comfort, budget and long-term oral health.
+      </p>
+    </div>
+
+    <!-- Treatment grid -->
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:gap-6">
+
+      <!-- 1 -->
+      <article class="sweep card-hover group rounded-[22px] border border-deep/10 bg-white p-6 flex flex-col" data-reveal style="--d:60ms">
+        <div class="w-12 h-12 rounded-2xl bg-aqua text-deep flex items-center justify-center group-hover:bg-deep group-hover:text-white transition-colors duration-500">
+          <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.6c-1.9 0-2.9-1.1-4.9-1.1C4.4 1.5 3 3.2 3 6.1c0 4 1.5 6.1 2.5 9.1.7 2.1 1 5.2 2 5.2s1.1-3 1.9-5.1c.4-1 1.1-1.5 2.6-1.5s2.2.5 2.6 1.5c.8 2.1.9 5.1 1.9 5.1s1.3-3.1 2-5.2c1-3 2.5-5.1 2.5-9.1 0-2.9-1.4-4.6-4.1-4.6-2 0-3 1.1-4.9 1.1z"/></svg>
+        </div>
+        <h3 class="mt-5 text-[18px] font-700 text-navy">General Dentistry</h3>
+        <p class="mt-2.5 text-[14px] leading-relaxed text-ink/70 flex-1">Routine examinations, fillings, gum care and preventive advice to keep your smile healthy for life.</p>
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%27d%20like%20to%20know%20more%20about%20General%20Dentistry." target="_blank" rel="noopener"
+           class="mt-5 inline-flex items-center justify-center gap-2 rounded-full border border-deep/15 px-4 py-2.5 text-[13px] font-700 text-deep hover:bg-wa hover:text-white hover:border-wa transition-all duration-300">
+          <svg viewBox="0 0 32 32" class="w-4 h-4" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+          Ask on WhatsApp
+        </a>
+      </article>
+
+      <!-- 2 -->
+      <article class="sweep card-hover group rounded-[22px] border border-deep/10 bg-white p-6 flex flex-col" data-reveal style="--d:110ms">
+        <div class="w-12 h-12 rounded-2xl bg-softblue text-deep flex items-center justify-center group-hover:bg-deep group-hover:text-white transition-colors duration-500">
+          <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 21v-2M5.6 5.6l2.8 2.8M18.4 5.6l-2.8 2.8M3 12h4M17 12h4M6 18l2-2M18 18l-2-2"/><circle cx="12" cy="12" r="3.2"/></svg>
+        </div>
+        <h3 class="mt-5 text-[18px] font-700 text-navy">Dental Cleaning</h3>
+        <p class="mt-2.5 text-[14px] leading-relaxed text-ink/70 flex-1">Professional scaling and polishing that removes plaque, tartar and surface stains for fresher, healthier gums.</p>
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%27d%20like%20to%20know%20more%20about%20Dental%20Cleaning." target="_blank" rel="noopener"
+           class="mt-5 inline-flex items-center justify-center gap-2 rounded-full border border-deep/15 px-4 py-2.5 text-[13px] font-700 text-deep hover:bg-wa hover:text-white hover:border-wa transition-all duration-300">
+          <svg viewBox="0 0 32 32" class="w-4 h-4" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+          Ask on WhatsApp
+        </a>
+      </article>
+
+      <!-- 3 -->
+      <article class="sweep card-hover group rounded-[22px] border border-deep/10 bg-white p-6 flex flex-col" data-reveal style="--d:160ms">
+        <div class="w-12 h-12 rounded-2xl bg-aqua2 text-deep flex items-center justify-center group-hover:bg-deep group-hover:text-white transition-colors duration-500">
+          <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.7 4.7 1.9-4.7 1.9L12 16.2l-1.9-4.7-4.7-1.9 4.7-1.9z"/><path d="M18.5 15.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg>
+        </div>
+        <h3 class="mt-5 text-[18px] font-700 text-navy">Teeth Whitening</h3>
+        <p class="mt-2.5 text-[14px] leading-relaxed text-ink/70 flex-1">Safe, dentist-supervised whitening that brightens your smile by several shades in a single comfortable visit.</p>
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%27d%20like%20to%20know%20more%20about%20Teeth%20Whitening." target="_blank" rel="noopener"
+           class="mt-5 inline-flex items-center justify-center gap-2 rounded-full border border-deep/15 px-4 py-2.5 text-[13px] font-700 text-deep hover:bg-wa hover:text-white hover:border-wa transition-all duration-300">
+          <svg viewBox="0 0 32 32" class="w-4 h-4" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+          Ask on WhatsApp
+        </a>
+      </article>
+
+      <!-- 4 -->
+      <article class="sweep card-hover group rounded-[22px] border border-deep/10 bg-white p-6 flex flex-col" data-reveal style="--d:210ms">
+        <div class="w-12 h-12 rounded-2xl bg-aqua text-deep flex items-center justify-center group-hover:bg-deep group-hover:text-white transition-colors duration-500">
+          <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10z"/><path d="M12 8.4V14"/></svg>
+        </div>
+        <h3 class="mt-5 text-[18px] font-700 text-navy">Root Canal Treatment</h3>
+        <p class="mt-2.5 text-[14px] leading-relaxed text-ink/70 flex-1">Pain-relieving, precision endodontics with rotary instruments — saving your natural tooth comfortably.</p>
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%27d%20like%20to%20know%20more%20about%20Root%20Canal%20Treatment." target="_blank" rel="noopener"
+           class="mt-5 inline-flex items-center justify-center gap-2 rounded-full border border-deep/15 px-4 py-2.5 text-[13px] font-700 text-deep hover:bg-wa hover:text-white hover:border-wa transition-all duration-300">
+          <svg viewBox="0 0 32 32" class="w-4 h-4" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+          Ask on WhatsApp
+        </a>
+      </article>
+
+      <!-- 5 -->
+      <article class="sweep card-hover group rounded-[22px] border border-deep/10 bg-white p-6 flex flex-col" data-reveal style="--d:60ms">
+        <div class="w-12 h-12 rounded-2xl bg-softblue text-deep flex items-center justify-center group-hover:bg-deep group-hover:text-white transition-colors duration-500">
+          <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v7M9 2v5M15 2v5"/><rect x="7" y="9" width="10" height="5" rx="2"/><path d="M8.5 14v3.5a3.5 3.5 0 0 0 7 0V14"/><path d="M12 21v-2"/></svg>
+        </div>
+        <h3 class="mt-5 text-[18px] font-700 text-navy">Dental Implants</h3>
+        <p class="mt-2.5 text-[14px] leading-relaxed text-ink/70 flex-1">Permanent, natural-looking tooth replacement with titanium implants planned using digital 3D imaging.</p>
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%27d%20like%20to%20know%20more%20about%20Dental%20Implants." target="_blank" rel="noopener"
+           class="mt-5 inline-flex items-center justify-center gap-2 rounded-full border border-deep/15 px-4 py-2.5 text-[13px] font-700 text-deep hover:bg-wa hover:text-white hover:border-wa transition-all duration-300">
+          <svg viewBox="0 0 32 32" class="w-4 h-4" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+          Ask on WhatsApp
+        </a>
+      </article>
+
+      <!-- 6 -->
+      <article class="sweep card-hover group rounded-[22px] border border-deep/10 bg-white p-6 flex flex-col" data-reveal style="--d:110ms">
+        <div class="w-12 h-12 rounded-2xl bg-aqua2 text-deep flex items-center justify-center group-hover:bg-deep group-hover:text-white transition-colors duration-500">
+          <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M4.5 9v6a3 3 0 0 0 3 3h9a3 3 0 0 0 3-3V9"/><path d="M8 9V6.5A1.5 1.5 0 0 1 9.5 5h5A1.5 1.5 0 0 1 16 6.5V9"/><path d="M8 12v3M12 12v3M16 12v3"/></svg>
+        </div>
+        <h3 class="mt-5 text-[18px] font-700 text-navy">Braces &amp; Aligners</h3>
+        <p class="mt-2.5 text-[14px] leading-relaxed text-ink/70 flex-1">Metal, ceramic and nearly invisible clear aligners for beautifully aligned teeth at any age.</p>
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%27d%20like%20to%20know%20more%20about%20Braces%20%26%20Aligners." target="_blank" rel="noopener"
+           class="mt-5 inline-flex items-center justify-center gap-2 rounded-full border border-deep/15 px-4 py-2.5 text-[13px] font-700 text-deep hover:bg-wa hover:text-white hover:border-wa transition-all duration-300">
+          <svg viewBox="0 0 32 32" class="w-4 h-4" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+          Ask on WhatsApp
+        </a>
+      </article>
+
+      <!-- 7 -->
+      <article class="sweep card-hover group rounded-[22px] border border-deep/10 bg-white p-6 flex flex-col" data-reveal style="--d:160ms">
+        <div class="w-12 h-12 rounded-2xl bg-aqua text-deep flex items-center justify-center group-hover:bg-deep group-hover:text-white transition-colors duration-500">
+          <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8l8-4 8 4-8 4z"/><path d="M4 8v5c0 2.2 3.6 4 8 4s8-1.8 8-4V8"/><path d="M20 13v3"/><path d="M4 13v3"/></svg>
+        </div>
+        <h3 class="mt-5 text-[18px] font-700 text-navy">Crowns &amp; Bridges</h3>
+        <p class="mt-2.5 text-[14px] leading-relaxed text-ink/70 flex-1">Natural-looking ceramic restorations that restore strength, shape and function to damaged or missing teeth.</p>
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%27d%20like%20to%20know%20more%20about%20Crowns%20%26%20Bridges." target="_blank" rel="noopener"
+           class="mt-5 inline-flex items-center justify-center gap-2 rounded-full border border-deep/15 px-4 py-2.5 text-[13px] font-700 text-deep hover:bg-wa hover:text-white hover:border-wa transition-all duration-300">
+          <svg viewBox="0 0 32 32" class="w-4 h-4" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+          Ask on WhatsApp
+        </a>
+      </article>
+
+      <!-- 8 -->
+      <article class="sweep card-hover group rounded-[22px] border border-deep/10 bg-white p-6 flex flex-col" data-reveal style="--d:210ms">
+        <div class="w-12 h-12 rounded-2xl bg-softblue text-deep flex items-center justify-center group-hover:bg-deep group-hover:text-white transition-colors duration-500">
+          <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.2"/><path d="M6 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M4 10.5l1.6 1.2M20 10.5l-1.6 1.2"/><path d="M9.5 18.5h5"/></svg>
+        </div>
+        <h3 class="mt-5 text-[18px] font-700 text-navy">Pediatric Dentistry</h3>
+        <p class="mt-2.5 text-[14px] leading-relaxed text-ink/70 flex-1">Friendly, fear-free dental visits for children — including fluoride treatments, sealants and habit correction.</p>
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%27d%20like%20to%20know%20more%20about%20Pediatric%20Dentistry." target="_blank" rel="noopener"
+           class="mt-5 inline-flex items-center justify-center gap-2 rounded-full border border-deep/15 px-4 py-2.5 text-[13px] font-700 text-deep hover:bg-wa hover:text-white hover:border-wa transition-all duration-300">
+          <svg viewBox="0 0 32 32" class="w-4 h-4" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+          Ask on WhatsApp
+        </a>
+      </article>
+
+      <!-- 9 -->
+      <article class="sweep card-hover group rounded-[22px] border border-deep/10 bg-white p-6 flex flex-col" data-reveal style="--d:60ms">
+        <div class="w-12 h-12 rounded-2xl bg-aqua2 text-deep flex items-center justify-center group-hover:bg-deep group-hover:text-white transition-colors duration-500">
+          <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c3.5 0 6 2.6 6 6 0 2.6-.7 3.9-1.3 6-.5 1.8-.8 4-1.7 4-.9 0-1-2.2-1.7-3.6-.4-.9-1.3-.9-1.7 0-.7 1.4-.8 3.6-1.7 3.6-.9 0-1.2-2.2-1.7-4C6.7 12.9 6 11.6 6 9c0-3.4 2.5-6 6-6z"/><path d="M9 8.5c.8-.9 1.9-1.4 3-1.4"/></svg>
+        </div>
+        <h3 class="mt-5 text-[18px] font-700 text-navy">Wisdom Tooth Removal</h3>
+        <p class="mt-2.5 text-[14px] leading-relaxed text-ink/70 flex-1">Gentle, minimally-invasive extractions with careful pain management and quick, comfortable recovery.</p>
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%27d%20like%20to%20know%20more%20about%20Wisdom%20Tooth%20Removal." target="_blank" rel="noopener"
+           class="mt-5 inline-flex items-center justify-center gap-2 rounded-full border border-deep/15 px-4 py-2.5 text-[13px] font-700 text-deep hover:bg-wa hover:text-white hover:border-wa transition-all duration-300">
+          <svg viewBox="0 0 32 32" class="w-4 h-4" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+          Ask on WhatsApp
+        </a>
+      </article>
+
+      <!-- 10 -->
+      <article class="sweep card-hover group rounded-[22px] border border-deep/10 bg-white p-6 flex flex-col" data-reveal style="--d:110ms">
+        <div class="w-12 h-12 rounded-2xl bg-aqua text-deep flex items-center justify-center group-hover:bg-deep group-hover:text-white transition-colors duration-500">
+          <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.2a4.6 4.6 0 0 0 7 0"/><path d="M9 9.5h.01M15 9.5h.01"/></svg>
+        </div>
+        <h3 class="mt-5 text-[18px] font-700 text-navy">Cosmetic Dentistry</h3>
+        <p class="mt-2.5 text-[14px] leading-relaxed text-ink/70 flex-1">Veneers, bonding, gum contouring and complete smile makeovers designed to look naturally beautiful.</p>
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%27d%20like%20to%20know%20more%20about%20Cosmetic%20Dentistry." target="_blank" rel="noopener"
+           class="mt-5 inline-flex items-center justify-center gap-2 rounded-full border border-deep/15 px-4 py-2.5 text-[13px] font-700 text-deep hover:bg-wa hover:text-white hover:border-wa transition-all duration-300">
+          <svg viewBox="0 0 32 32" class="w-4 h-4" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+          Ask on WhatsApp
+        </a>
+      </article>
+
+      <!-- CTA card -->
+      <article class="rounded-[22px] bg-gradient-to-br from-deep to-teal text-white p-6 flex flex-col justify-between shadow-lift" data-reveal style="--d:160ms">
+        <div>
+          <div class="w-12 h-12 rounded-2xl bg-white/15 flex items-center justify-center">
+            <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 12.5h5"/></svg>
+          </div>
+          <h3 class="mt-5 text-[19px] font-700 leading-snug">Not sure which treatment you need?</h3>
+          <p class="mt-2.5 text-[14px] leading-relaxed text-white/80">Send us a quick message on WhatsApp and our care team will guide you to the right appointment.</p>
+        </div>
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%20need%20help%20choosing%20the%20right%20dental%20treatment." target="_blank" rel="noopener"
+           class="magnetic mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-white text-deep px-5 py-3 text-[13.5px] font-700 hover:bg-wa hover:text-white transition-colors duration-300">
+          <svg viewBox="0 0 32 32" class="w-4 h-4" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+          Chat with our team
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+<section class="relative py-20 lg:py-28 bg-deep text-white overflow-hidden">
+  <div class="absolute inset-0 opacity-[0.16]" style="background-image:radial-gradient(rgba(255,255,255,.55) 1px, transparent 1px); background-size:26px 26px;"></div>
+  <div class="ambient" style="width:520px;height:520px;background:#127A76;top:-160px;right:-120px;opacity:.5;"></div>
+  <div class="ambient" style="width:420px;height:420px;background:#1C8C86;bottom:-180px;left:-120px;opacity:.4;"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+      <div>
+        <div class="inline-flex items-center gap-2 rounded-full bg-white/12 border border-white/15 px-4 py-2 text-[12px] font-700 uppercase tracking-[0.18em] text-white/85" data-reveal>
+          <span class="w-1.5 h-1.5 rounded-full bg-wa"></span> Why Choose Us
+        </div>
+        <h2 class="mt-6 font-display text-[34px] sm:text-[46px] lg:text-[52px] leading-[1.08] font-600 tracking-[-0.02em]" data-reveal style="--d:80ms">
+          Dentistry that puts <span class="text-aqua2">people</span> before procedures.
+        </h2>
+        <p class="mt-6 text-[16.5px] sm:text-[18px] leading-[1.8] text-white/78 max-w-[540px]" data-reveal style="--d:150ms">
+          We know a dental visit can feel daunting. That's why every part of SmileCare — from our calm interiors and
+          transparent treatment plans to our gentle techniques — is designed to make you feel completely at ease.
+        </p>
+
+        <div class="mt-8 rounded-2xl bg-white/10 border border-white/15 p-5 flex items-start gap-4" data-reveal style="--d:210ms">
+          <div class="w-11 h-11 rounded-full bg-wa text-white flex items-center justify-center shrink-0">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+          </div>
+          <div>
+            <div class="text-[15px] font-700">Comfort-first guarantee</div>
+            <p class="text-[13.5px] text-white/72 mt-1 leading-relaxed">If you're nervous, tell us. We'll slow down, explain every step, and never proceed until you're comfortable.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- benefits -->
+      <div class="grid sm:grid-cols-2 gap-5">
+        <div class="rounded-2xl bg-white/8 border border-white/12 p-6 card-hover hover:bg-white/14" data-reveal style="--d:80ms">
+          <div class="w-11 h-11 rounded-xl bg-aqua2 text-deep flex items-center justify-center">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4.5 8-11V5l-8-3-8 3v6c0 6.5 8 11 8 11z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <h3 class="mt-4 text-[16px] font-700">Advanced Sterilisation</h3>
+          <p class="mt-2 text-[13.5px] leading-relaxed text-white/72">Hospital-grade hygiene protocols and single-use disposables for absolute peace of mind.</p>
+        </div>
+
+        <div class="rounded-2xl bg-white/8 border border-white/12 p-6 card-hover hover:bg-white/14" data-reveal style="--d:130ms">
+          <div class="w-11 h-11 rounded-xl bg-aqua2 text-deep flex items-center justify-center">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg>
+          </div>
+          <h3 class="mt-4 text-[16px] font-700">On-Time Appointments</h3>
+          <p class="mt-2 text-[13.5px] leading-relaxed text-white/72">Minimal waiting with efficient scheduling — because your time matters as much as your smile.</p>
+        </div>
+
+        <div class="rounded-2xl bg-white/8 border border-white/12 p-6 card-hover hover:bg-white/14" data-reveal style="--d:180ms">
+          <div class="w-11 h-11 rounded-xl bg-aqua2 text-deep flex items-center justify-center">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M2.5 10h19M6 15h4"/></svg>
+          </div>
+          <h3 class="mt-4 text-[16px] font-700">Transparent Pricing</h3>
+          <p class="mt-2 text-[13.5px] leading-relaxed text-white/72">Detailed estimates before we begin — no hidden costs, no surprises at the reception desk.</p>
+        </div>
+
+        <div class="rounded-2xl bg-white/8 border border-white/12 p-6 card-hover hover:bg-white/14" data-reveal style="--d:230ms">
+          <div class="w-11 h-11 rounded-xl bg-aqua2 text-deep flex items-center justify-center">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          </div>
+          <h3 class="mt-4 text-[16px] font-700">Emergency Support</h3>
+          <p class="mt-2 text-[13.5px] leading-relaxed text-white/72">Same-day slots for dental pain and urgent care, with quick guidance available over WhatsApp.</p>
+        </div>
+
+        <div class="rounded-2xl bg-white/8 border border-white/12 p-6 card-hover hover:bg-white/14" data-reveal style="--d:280ms">
+          <div class="w-11 h-11 rounded-xl bg-aqua2 text-deep flex items-center justify-center">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <h3 class="mt-4 text-[16px] font-700">All Ages Welcome</h3>
+          <p class="mt-2 text-[13.5px] leading-relaxed text-white/72">From toddlers to grandparents — complete family dental care in one familiar, friendly place.</p>
+        </div>
+
+        <div class="rounded-2xl bg-white/8 border border-white/12 p-6 card-hover hover:bg-white/14" data-reveal style="--d:330ms">
+          <div class="w-11 h-11 rounded-xl bg-aqua2 text-deep flex items-center justify-center">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          </div>
+          <h3 class="mt-4 text-[16px] font-700">Proven Results</h3>
+          <p class="mt-2 text-[13.5px] leading-relaxed text-white/72">12,000+ smiles transformed with a 4.9-star average patient rating across Google and Practo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOCTORS ================= -->
+<section id="doctors" class="relative py-20 lg:py-28 bg-sand overflow-hidden">
+  <div class="absolute inset-0 grain opacity-40 pointer-events-none"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-2xl mx-auto text-center">
+      <div class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-[12px] font-700 uppercase tracking-[0.18em] text-teal shadow-soft" data-reveal>
+        <span class="w-1.5 h-1.5 rounded-full bg-teal"></span> Meet Our Dentists
+      </div>
+      <h2 class="mt-6 font-display text-[34px] sm:text-[46px] lg:text-[52px] leading-[1.08] font-600 text-navy tracking-[-0.02em]" data-reveal style="--d:80ms">
+        Specialists who genuinely <span class="text-teal">care</span>
+      </h2>
+      <p class="mt-5 text-[16.5px] sm:text-[18px] leading-[1.75] text-ink/75" data-reveal style="--d:150ms">
+        Our clinicians bring advanced training, meticulous technique and a warm, unhurried approach to every appointment.
+      </p>
+    </div>
+
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-7 lg:gap-8">
+
+      <!-- Doctor 1 -->
+      <article class="group rounded-[26px] bg-white border border-deep/10 overflow-hidden card-hover shadow-soft" data-reveal style="--d:60ms">
+        <div class="relative h-[330px] sm:h-[350px] overflow-hidden bg-gradient-to-br from-aqua to-softblue">
+          <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80"
+               alt="Dr. Ananya Rao, Chief Dental Surgeon" class="w-full h-full object-cover object-top transition-transform duration-[900ms] group-hover:scale-[1.06]" loading="lazy" decoding="async" onerror="this.style.opacity=0" />
+          <div class="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-deep/75 to-transparent"></div>
+          <div class="absolute bottom-4 left-4 inline-flex items-center gap-2 rounded-full bg-white/92 px-3.5 py-1.5">
+            <svg viewBox="0 0 24 24" class="w-3.5 h-3.5 text-teal" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.6 2.6L16 9.6"/></svg>
+            <span class="text-[11.5px] font-700 text-navy">15+ Years Experience</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <h3 class="text-[20px] font-700 text-navy">Dr. Ananya Rao</h3>
+          <p class="text-[13px] font-700 text-teal uppercase tracking-[0.12em] mt-1">Chief Dental Surgeon</p>
+          <p class="mt-3 text-[14px] leading-relaxed text-ink/70">BDS, MDS (Conservative Dentistry &amp; Endodontics). Special interest in painless root canals and smile design.</p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="rounded-full bg-aqua text-deep text-[11.5px] font-600 px-3 py-1.5">Root Canal</span>
+            <span class="rounded-full bg-aqua text-deep text-[11.5px] font-600 px-3 py-1.5">Cosmetic</span>
+          </div>
+          <a href="https://wa.me/919876543210?text=Hello%20SmileCare!%20I%27d%20like%20to%20book%20a%20consultation%20with%20Dr.%20Ananya%20Rao." target="_blank" rel="noopener"
+             class="btn-wa mt-6 w-full inline-flex items-center justify-center gap-2 rounded-full text-white px-5 py-3.5 text-[14px] font-700">
+            <svg viewBox="0 0 32 32" class="w-4.5 h-4.5" width="18" height="18" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+            Book Consultation
+          </a>
+        </div>
+      </article>
+
+      <!-- Doctor 2 -->
+      <article class="group rounded-[26px] bg-white border border-deep/10 overflow-hidden card-hover shadow-soft" data-reveal style="--d:130ms">
+        <div class="relative h-[330px] sm:h-[350px] overflow-hidden bg-gradient-to-br from-softblue to-aqua">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80"
+               alt="Dr. Vikram Mehta, Implantologist and Prosthodontist" class="w-full h-full object-cover object-top transition-transform duration-[900ms] group-hover:scale-[1.06]" loading="lazy" decoding="async" onerror="this.style.opacity=0" />
+          <div class="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-deep/75 to-transparent"></div>
+          <div class="absolute bottom-4 left-4 inline-flex items-center gap-2 rounded-full bg-white/92 px-3.5 py-1.5">
+            <svg viewBox="0 0 24 24" class="w-3.5 h-3.5 text-teal" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.6 2.6L16 9.6"/></svg>
+            <span class="text-[11.5px] font-700 text-navy">500+ Implants Placed</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <h3 class="text-[20px] font-700 text-navy">Dr. Vikram Mehta</h3>
+          <p class="text-[13px] font-700 text-teal uppercase tracking-[0.12em] mt-1">Implantologist &amp; Prosthodontist</p>
+          <p class="mt-3 text-[14px] leading-relaxed text-ink/70">BDS, MDS (Prosthodontics), Fellow in Oral Implantology. Expert in full-mouth rehabilitation and crowns.</p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="rounded-full bg-aqua text-deep text-[11.5px] font-600 px-3 py-1.5">Implants</span>
+            <span class="rounded-full bg-aqua text-deep text-[11.5px] font-600 px-3 py-1.5">Crowns &amp; Bridges</span>
+          </div>
+          <a href="https://wa.me/919876543210?text=Hello%20SmileCare!%20I%27d%20like%20to%20book%20a%20consultation%20with%20Dr.%20Vikram%20Mehta." target="_blank" rel="noopener"
+             class="btn-wa mt-6 w-full inline-flex items-center justify-center gap-2 rounded-full text-white px-5 py-3.5 text-[14px] font-700">
+            <svg viewBox="0 0 32 32" class="w-4.5 h-4.5" width="18" height="18" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+            Book Consultation
+          </a>
+        </div>
+      </article>
+
+      <!-- Doctor 3 -->
+      <article class="group rounded-[26px] bg-white border border-deep/10 overflow-hidden card-hover shadow-soft sm:col-span-2 lg:col-span-1" data-reveal style="--d:200ms">
+        <div class="relative h-[330px] sm:h-[350px] overflow-hidden bg-gradient-to-br from-aqua2 to-aqua">
+          <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=800&q=80"
+               alt="Dr. Priya Nair, Orthodontist and Pediatric Dentist" class="w-full h-full object-cover object-top transition-transform duration-[900ms] group-hover:scale-[1.06]" loading="lazy" decoding="async" onerror="this.style.opacity=0" />
+          <div class="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-deep/75 to-transparent"></div>
+          <div class="absolute bottom-4 left-4 inline-flex items-center gap-2 rounded-full bg-white/92 px-3.5 py-1.5">
+            <svg viewBox="0 0 24 24" class="w-3.5 h-3.5 text-teal" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.6 2.6L16 9.6"/></svg>
+            <span class="text-[11.5px] font-700 text-navy">Invisalign Certified</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <h3 class="text-[20px] font-700 text-navy">Dr. Priya Nair</h3>
+          <p class="text-[13px] font-700 text-teal uppercase tracking-[0.12em] mt-1">Orthodontist &amp; Pediatric Dentist</p>
+          <p class="mt-3 text-[14px] leading-relaxed text-ink/70">BDS, MDS (Orthodontics &amp; Dentofacial Orthopaedics). Known for her patient, child-friendly approach.</p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="rounded-full bg-aqua text-deep text-[11.5px] font-600 px-3 py-1.5">Braces &amp; Aligners</span>
+            <span class="rounded-full bg-aqua text-deep text-[11.5px] font-600 px-3 py-1.5">Kids' Dentistry</span>
+          </div>
+          <a href="https://wa.me/919876543210?text=Hello%20SmileCare!%20I%27d%20like%20to%20book%20a%20consultation%20with%20Dr.%20Priya%20Nair." target="_blank" rel="noopener"
+             class="btn-wa mt-6 w-full inline-flex items-center justify-center gap-2 rounded-full text-white px-5 py-3.5 text-[14px] font-700">
+            <svg viewBox="0 0 32 32" class="w-4.5 h-4.5" width="18" height="18" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+            Book Consultation
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= APPOINTMENT ================= -->
+<section id="appointment" class="relative py-20 lg:py-28 overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-br from-aqua via-white to-softblue"></div>
+  <div class="ambient" style="width:480px;height:480px;background:#CDEBE7;top:-140px;left:-120px;opacity:.7;"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+
+      <!-- Left copy -->
+      <div>
+        <div class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-[12px] font-700 uppercase tracking-[0.18em] text-teal shadow-soft" data-reveal>
+          <span class="w-1.5 h-1.5 rounded-full bg-wa"></span> Book Appointment
+        </div>
+        <h2 class="mt-6 font-display text-[34px] sm:text-[46px] lg:text-[52px] leading-[1.08] font-600 text-navy tracking-[-0.02em]" data-reveal style="--d:80ms">
+          Your new smile starts with a <span class="text-teal">simple message</span>.
+        </h2>
+        <p class="mt-6 text-[16.5px] sm:text-[18px] leading-[1.8] text-ink/80 max-w-[540px]" data-reveal style="--d:150ms">
+          Fill in the short form and we'll open WhatsApp with your details pre-filled. Our care team typically responds
+          within a few minutes during clinic hours — it's the fastest way to reserve your preferred time slot.
+        </p>
+
+        <div class="mt-8 space-y-4">
+          <div class="flex items-start gap-4 rounded-2xl bg-white/80 border border-white/70 p-4 shadow-soft" data-reveal style="--d:200ms">
+            <div class="w-10 h-10 rounded-xl bg-deep text-white flex items-center justify-center shrink-0">
+              <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            </div>
+            <div>
+              <div class="text-[14.5px] font-700 text-navy">Clinic Hours</div>
+              <div class="text-[13.5px] text-ink/72 mt-0.5">Monday – Saturday: 9:00 AM – 8:00 PM &middot; Sunday: Closed</div>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4 rounded-2xl bg-white/80 border border-white/70 p-4 shadow-soft" data-reveal style="--d:250ms">
+            <div class="w-10 h-10 rounded-xl bg-wa text-white flex items-center justify-center shrink-0">
+              <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+            </div>
+            <div>
+              <div class="text-[14.5px] font-700 text-navy">Instant Confirmation</div>
+              <div class="text-[13.5px] text-ink/72 mt-0.5">Receive your appointment confirmation and reminders directly on WhatsApp.</div>
+            </div>
+          </div>
+
+          <a href="https://wa.me/919876543210?text=Hello%20SmileCare%20Dental%20Clinic!%20I%27d%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener"
+             class="magnetic btn-wa inline-flex items-center gap-2.5 rounded-full text-white px-7 py-4 text-[15px] font-700 shadow-glow" data-reveal style="--d:300ms">
+            <svg viewBox="0 0 32 32" class="w-5 h-5" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71zm5.82 20.85c-1.99 0-3.94-.53-5.65-1.54l-.4-.24-4.19 1.1 1.12-4.08-.26-.42a10.5 10.5 0 0 1-1.61-5.62c0-5.83 4.75-10.58 10.59-10.58 5.83 0 10.58 4.75 10.58 10.58 0 5.84-4.75 10.9-10.18 10.9z"/></svg>
+            Chat with us directly
+          </a>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="relative" data-reveal="scale" style="--d:120ms">
+        <form id="bookingForm" class="rounded-[26px] bg-white shadow-lift border border-deep/10 p-6 sm:p-8" novalidate>
+          <h3 class="text-[21px] sm:text-[24px] font-700 text-navy">Request an Appointment</h3>
+          <p class="text-[13.5px] text-ink/68 mt-1.5">All fields marked * are required.</p>
+
+          <div class="mt-6 grid sm:grid-cols-2 gap-4">
+            <div>
+              <label for="name" class="block text-[12.5px] font-700 text-navy uppercase tracking-[0.1em] mb-2">Full Name *</label>
+              <input id="name" name="name" type="text" required placeholder="e.g. Rahul Sharma"
+                     class="w-full rounded-xl border border-deep/15 bg-sand px-4 py-3.5 text-[14.5px] text-navy placeholder:text-ink/42 focus:border-teal focus:bg-white outline-none transition-colors" />
+            </div>
+            <div>
+              <label for="phone" class="block text-[12.5px] font-700 text-navy uppercase tracking-[0.1em] mb-2">Phone Number *</label>
+              <input id="phone" name="phone" type="tel" required inputmode="tel" placeholder="e.g. 98765 43210"
+                     class="w-full rounded-xl border border-deep/15 bg-sand px-4 py-3.5 text-[14.5px] text-navy placeholder:text-ink/42 focus:border-teal focus:bg-white outline-none transition-colors" />
+            </div>
+            <div>
+              <label for="treatment" class="block text-[12.5px] font-700 text-navy uppercase tracking-[0.1em] mb-2">Treatment</label>
+              <select id="treatment" name="treatment"
+                      class="w-full rounded-xl border border-deep/15 bg-sand px-4 py-3.5 text-[14.5px] text-navy focus:border-teal focus:bg-white outline-none transition-colors">
+                <option>General Check-up</option>
+                <option>Dental Cleaning</option>
+                <option>Teeth Whitening</option>
+                <option>Root Canal Treatment</option>
+                <option>Dental Implants</option>
+                <option>Braces &amp; Aligners</option>
+                <option>Crowns &amp; Bridges</option>
+                <option>Pediatric Dentistry</option>
+                <option>Wisdom Tooth Removal</option>
+                <option>Cosmetic Dentistry</option>
+                <option>Emergency / Dental Pain</option>
+              </select>
+            </div>
+            <div>
+              <label for="date" class="block text-[12.5px] font-700 text-navy uppercase tracking-[0.1em] mb-2">Preferred Date</label>
+              <input id="date" name="date" type="date"
+                     class="w-full rounded-xl border border-deep/15 bg-sand px-4 py-3.5 text-[14.5px] text-navy focus:border-teal focus:bg-white outline-none transition-colors" />
+            </div>
+            <div class="sm:col-span-2">
+              <label for="time" class="block text-[12.5px] font-700 text-navy uppercase tracking-[0.1em] mb-2">Preferred Time</label>
+              <select id="time" name="time"
+                      class="w-full rounded-xl border border-deep/15 bg-sand px-4 py-3.5 text-[14.5px] text-navy focus:border-teal focus:bg-white outline-none transition-colors">
+                <option>9:00 AM – 11:00 AM</option>
+                <option>11:00 AM – 1:00 PM</option>
+                <option>1:00 PM – 4:00 PM</option>
+                <option>4:00 PM – 6:00 PM</option>
+                <option>6:00 PM – 8:00 PM</option>
+              </select>
+            </div>
+            <div class="sm:col-span-2">
+              <label for="message" class="block text-[12.5px] font-700 text-navy uppercase tracking-[0.1em] mb-2">Message (optional)</label>
+              <textarea id="message" name="message" rows="3" placeholder="Tell us briefly about your concern..."
+                        class="w-full rounded-xl border border-deep/15 bg-sand px-4 py-3.5 text-[14.5px] text-navy placeholder:text-ink/42 focus:border-teal focus:bg-white outline-none transition-colors resize-none"></textarea>
+            </div>
+          </div>
+
+          <p id="formError" class="hidden mt-4 text-[13px] font-600 text-red-600"></p>
+
+          <button type="submit"
+                  class="btn-wa mt-6 w-full inline-flex items-center justify-center gap-2.5 rounded-full text-white px-6 py-4 text-[15.5px] font-700">
+            <svg viewBox="0 0 32 32" class="w-5 h-5" fill="currentColor" aria-hidden="true"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71zm5.82 20.85c-1.99 0-3.94-.53-5.65-1.54l-.4-.24-4.19 1.1 1.12-4.08-.26-.42a10.5 10.5 0 0 1-1.61-5.62c0-5.83 4.75-10.58 10.59-10.58 5.83 0 10.58 4.75 10.58 10.58 0 5.84-4.75 10.9-10.18 10.9z"/></svg>
+            Send via WhatsApp
+          </button>
+
+          <p class="mt-4 text-[11.5px] leading-relaxed text-ink/58 text-center">
+            By continuing, you agree to be contacted by SmileCare Dental Clinic regarding your appointment request.
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BEFORE & AFTER ================= -->
+<section class="relative py-20 lg:py-28 bg-white overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8">
+      <div class="max-w-2xl">
+        <div class="inline-flex items-center gap-2 rounded-full bg-aqua px-4 py-2 text-[12px] font-700 uppercase tracking-[0.18em] text-teal" data-reveal>
+          <span class="w-1.5 h-1.5 rounded-full bg-teal"></span> Smile Gallery
+        </div>
+        <h2 class="mt-6 font-display text-[34px] sm:text-[46px] lg:text-[52px] leading-[1.08] font-600 text-navy tracking-[-0.02em]" data-reveal style="--d:80ms">
+          Before &amp; after <span class="text-teal">transformations</span>
+        </h2>
+        <p class="mt-5 text-[16.5px] sm:text-[18px] leading-[1.75] text-ink/75" data-reveal style="--d:150ms">
+          Drag the slider to see real results from treatments at SmileCare. Every smile is individually planned to suit the face, bite and personality of the patient.
+        </p>
+      </div>
+
+      <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%27d%20like%20to%20see%20more%20before%20%26%20after%20results." target="_blank" rel="noopener"
+         class="magnetic inline-flex items-center gap-2.5 rounded-full border border-deep/18 bg-white px-6 py-3.5 text-[14.5px] font-700 text-deep hover:bg-deep hover:text-white transition-colors duration-300 shrink-0" data-reveal style="--d:200ms">
+        See more results
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
+
+      <!-- BA 1 -->
+      <figure class="rounded-[24px] overflow-hidden border border-deep/10 bg-sand p-3 card-hover" data-reveal style="--d:60ms">
+        <div class="ba-wrap h-[290px]" data-ba>
+          <img class="ba-before w-full h-full object-cover" style="filter:sepia(.42) saturate(.82) brightness(.93) contrast(.96);"
+               src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80" alt="Smile before teeth whitening treatment" loading="lazy" decoding="async" />
+          <div class="ba-after" data-ba-after>
+            <img style="filter:saturate(1.08) brightness(1.06) contrast(1.04);"
+                 src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80" alt="Smile after teeth whitening treatment" loading="lazy" decoding="async" />
+          </div>
+          <div class="ba-handle" data-ba-handle><div class="ba-knob">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l-5 6 5 6M15 6l5 6-5 6"/></svg>
+          </div></div>
+          <span class="absolute top-3 left-3 rounded-full bg-navy/78 text-white text-[11px] font-700 px-3 py-1.5">BEFORE</span>
+          <span class="absolute top-3 right-3 rounded-full bg-wa text-white text-[11px] font-700 px-3 py-1.5">AFTER</span>
+        </div>
+        <figcaption class="px-2 pt-5 pb-2">
+          <h3 class="text-[16.5px] font-700 text-navy">Professional Teeth Whitening</h3>
+          <p class="text-[13px] text-ink/68 mt-1.5 leading-relaxed">In-chair whitening session — 6 shades brighter in a single visit.</p>
+        </figcaption>
+      </figure>
+
+      <!-- BA 2 -->
+      <figure class="rounded-[24px] overflow-hidden border border-deep/10 bg-sand p-3 card-hover" data-reveal style="--d:130ms">
+        <div class="ba-wrap h-[290px]" data-ba>
+          <img class="ba-before w-full h-full object-cover" style="filter:sepia(.35) saturate(.85) brightness(.94) contrast(.97);"
+               src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=800&q=80" alt="Smile before dental veneers" loading="lazy" decoding="async" />
+          <div class="ba-after" data-ba-after>
+            <img style="filter:saturate(1.1) brightness(1.07) contrast(1.05);"
+                 src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=800&q=80" alt="Smile after dental veneers" loading="lazy" decoding="async" />
+          </div>
+          <div class="ba-handle" data-ba-handle><div class="ba-knob">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l-5 6 5 6M15 6l5 6-5 6"/></svg>
+          </div></div>
+          <span class="absolute top-3 left-3 rounded-full bg-navy/78 text-white text-[11px] font-700 px-3 py-1.5">BEFORE</span>
+          <span class="absolute top-3 right-3 rounded-full bg-wa text-white text-[11px] font-700 px-3 py-1.5">AFTER</span>
+        </div>
+        <figcaption class="px-2 pt-5 pb-2">
+          <h3 class="text-[16.5px] font-700 text-navy">Porcelain Veneers</h3>
+          <p class="text-[13px] text-ink/68 mt-1.5 leading-relaxed">Smile makeover with 8 natural-looking ceramic veneers.</p>
+        </figcaption>
+      </figure>
+
+      <!-- BA 3 -->
+      <figure class="rounded-[24px] overflow-hidden border border-deep/10 bg-sand p-3 card-hover sm:col-span-2 lg:col-span-1" data-reveal style="--d:200ms">
+        <div class="ba-wrap h-[290px]" data-ba>
+          <img class="ba-before w-full h-full object-cover" style="filter:sepia(.38) saturate(.8) brightness(.92) contrast(.95);"
+               src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80" alt="Smile before orthodontic alignment" loading="lazy" decoding="async" />
+          <div class="ba-after" data-ba-after>
+            <img style="filter:saturate(1.09) brightness(1.06) contrast(1.04);"
+                 src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80" alt="Smile after orthodontic alignment" loading="lazy" decoding="async" />
+          </div>
+          <div class="ba-handle" data-ba-handle><div class="ba-knob">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l-5 6 5 6M15 6l5 6-5 6"/></svg>
+          </div></div>
+          <span class="absolute top-3 left-3 rounded-full bg-navy/78 text-white text-[11px] font-700 px-3 py-1.5">BEFORE</span>
+          <span class="absolute top-3 right-3 rounded-full bg-wa text-white text-[11px] font-700 px-3 py-1.5">AFTER</span>
+        </div>
+        <figcaption class="px-2 pt-5 pb-2">
+          <h3 class="text-[16.5px] font-700 text-navy">Clear Aligner Therapy</h3>
+          <p class="text-[13px] text-ink/68 mt-1.5 leading-relaxed">11-month aligner journey for a perfectly aligned bite.</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <p class="mt-8 text-[12px] text-ink/55 text-center max-w-2xl mx-auto">
+      *Images are representative of treatment categories offered at SmileCare Dental Clinic. Individual results vary based on clinical condition.
+    </p>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section id="testimonials" class="relative py-20 lg:py-28 bg-sand overflow-hidden">
+  <div class="absolute inset-0 grain opacity-40 pointer-events-none"></div>
+  <div class="ambient" style="width:420px;height:420px;background:#CDEBE7;top:-120px;right:-140px;opacity:.65;"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-2xl mx-auto text-center">
+      <div class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-[12px] font-700 uppercase tracking-[0.18em] text-teal shadow-soft" data-reveal>
+        <span class="w-1.5 h-1.5 rounded-full bg-teal"></span> Patient Stories
+      </div>
+      <h2 class="mt-6 font-display text-[34px] sm:text-[46px] lg:text-[52px] leading-[1.08] font-600 text-navy tracking-[-0.02em]" data-reveal style="--d:80ms">
+        Loved by families across <span class="text-teal">Hyderabad</span>
+      </h2>
+
+      <div class="mt-7 inline-flex items-center gap-3 rounded-full bg-white border border-deep/10 px-6 py-3 shadow-soft" data-reveal style="--d:140ms">
+        <div class="flex items-center gap-1">
+          <svg viewBox="0 0 24 24" class="w-5 h-5 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-5 h-5 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-5 h-5 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-5 h-5 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-5 h-5 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+        </div>
+        <span class="text-[14px] font-700 text-navy">4.9 / 5</span>
+        <span class="w-px h-5 bg-deep/15"></span>
+        <span class="text-[13px] text-ink/70 font-500">Based on 486+ verified reviews</span>
+      </div>
+    </div>
+
+    <!-- Testimonial grid -->
+    <div class="mt-14 grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-7">
+
+      <article class="relative rounded-[24px] bg-white border border-deep/10 p-7 card-hover shadow-soft" data-reveal style="--d:60ms">
+        <div class="absolute top-6 right-7 text-aqua2">
+          <svg viewBox="0 0 24 24" width="46" height="46" fill="currentColor"><path d="M9.6 5.4C6 7 4 10.2 4 14.2 4 17.4 6 19.6 8.7 19.6c2.3 0 4-1.8 4-4 0-2.2-1.5-3.8-3.6-3.8-.4 0-1 .1-1.1.2.6-2.3 2-4 4.2-5.2zm9 0c-3.6 1.6-5.6 4.8-5.6 8.8 0 3.2 2 5.4 4.7 5.4 2.3 0 4-1.8 4-4 0-2.2-1.5-3.8-3.6-3.8-.4 0-1 .1-1.1.2.6-2.3 2-4 4.2-5.2z"/></svg>
+        </div>
+        <div class="flex items-center gap-1.5">
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+        </div>
+        <p class="mt-5 text-[15px] leading-[1.85] text-ink/82 relative z-10">
+          "I used to be terrified of dentists. The team at SmileCare explained everything before starting and the root canal
+          was completely painless. Honestly the best dental experience I've had in Hyderabad."
+        </p>
+        <div class="mt-6 flex items-center gap-3.5">
+          <div class="w-12 h-12 rounded-full overflow-hidden bg-aqua">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80" alt="Portrait of Sneha Reddy" class="w-full h-full object-cover" loading="lazy" decoding="async" onerror="this.style.opacity=0" />
+          </div>
+          <div>
+            <div class="text-[14px] font-700 text-navy">Sneha Reddy</div>
+            <div class="text-[12px] text-ink/62">Jubilee Hills &middot; Root Canal Treatment</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="relative rounded-[24px] bg-gradient-to-br from-deep to-teal text-white p-7 card-hover shadow-lift" data-reveal style="--d:130ms">
+        <div class="absolute top-6 right-7 text-white/15">
+          <svg viewBox="0 0 24 24" width="46" height="46" fill="currentColor"><path d="M9.6 5.4C6 7 4 10.2 4 14.2 4 17.4 6 19.6 8.7 19.6c2.3 0 4-1.8 4-4 0-2.2-1.5-3.8-3.6-3.8-.4 0-1 .1-1.1.2.6-2.3 2-4 4.2-5.2zm9 0c-3.6 1.6-5.6 4.8-5.6 8.8 0 3.2 2 5.4 4.7 5.4 2.3 0 4-1.8 4-4 0-2.2-1.5-3.8-3.6-3.8-.4 0-1 .1-1.1.2.6-2.3 2-4 4.2-5.2z"/></svg>
+        </div>
+        <div class="flex items-center gap-1.5">
+          <svg viewBox="0 0 24 24" class="w-4 h-4 text-[#FFC85C]" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 text-[#FFC85C]" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 text-[#FFC85C]" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 text-[#FFC85C]" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 text-[#FFC85C]" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+        </div>
+        <p class="mt-5 text-[15px] leading-[1.85] text-white/92 relative z-10">
+          "Got my dental implants done by Dr. Vikram and the results look completely natural. The clinic is spotless,
+          the equipment is modern, and the follow-up calls made me feel genuinely cared for."
+        </p>
+        <div class="mt-6 flex items-center gap-3.5">
+          <div class="w-12 h-12 rounded-full overflow-hidden bg-white/20">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" alt="Portrait of Arjun Kapoor" class="w-full h-full object-cover" loading="lazy" decoding="async" onerror="this.style.opacity=0" />
+          </div>
+          <div>
+            <div class="text-[14px] font-700">Arjun Kapoor</div>
+            <div class="text-[12px] text-white/70">Banjara Hills &middot; Dental Implants</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="relative rounded-[24px] bg-white border border-deep/10 p-7 card-hover shadow-soft md:col-span-2 lg:col-span-1" data-reveal style="--d:200ms">
+        <div class="absolute top-6 right-7 text-aqua2">
+          <svg viewBox="0 0 24 24" width="46" height="46" fill="currentColor"><path d="M9.6 5.4C6 7 4 10.2 4 14.2 4 17.4 6 19.6 8.7 19.6c2.3 0 4-1.8 4-4 0-2.2-1.5-3.8-3.6-3.8-.4 0-1 .1-1.1.2.6-2.3 2-4 4.2-5.2zm9 0c-3.6 1.6-5.6 4.8-5.6 8.8 0 3.2 2 5.4 4.7 5.4 2.3 0 4-1.8 4-4 0-2.2-1.5-3.8-3.6-3.8-.4 0-1 .1-1.1.2.6-2.3 2-4 4.2-5.2z"/></svg>
+        </div>
+        <div class="flex items-center gap-1.5">
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+        </div>
+        <p class="mt-5 text-[15px] leading-[1.85] text-ink/82 relative z-10">
+          "Dr. Priya is amazing with kids. My daughter actually asks when her next dental visit is! The whole staff is warm,
+          patient and professional. Highly recommended for families."
+        </p>
+        <div class="mt-6 flex items-center gap-3.5">
+          <div class="w-12 h-12 rounded-full overflow-hidden bg-aqua">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80" alt="Portrait of Kavya Sharma" class="w-full h-full object-cover" loading="lazy" decoding="async" onerror="this.style.opacity=0" />
+          </div>
+          <div>
+            <div class="text-[14px] font-700 text-navy">Kavya Sharma</div>
+            <div class="text-[12px] text-ink/62">Madhapur &middot; Pediatric Dentistry</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="relative rounded-[24px] bg-white border border-deep/10 p-7 card-hover shadow-soft" data-reveal style="--d:260ms">
+        <div class="flex items-center gap-1.5">
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+        </div>
+        <p class="mt-5 text-[15px] leading-[1.85] text-ink/82">
+          "Booking on WhatsApp was effortless — got a reply in five minutes and a same-day slot for my tooth pain.
+          Transparent pricing and no unnecessary procedures. Truly trustworthy."
+        </p>
+        <div class="mt-6 flex items-center gap-3.5">
+          <div class="w-12 h-12 rounded-full overflow-hidden bg-aqua">
+            <img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=crop&w=200&q=80" alt="Portrait of Rohan Gupta" class="w-full h-full object-cover" loading="lazy" decoding="async" onerror="this.style.opacity=0" />
+          </div>
+          <div>
+            <div class="text-[14px] font-700 text-navy">Rohan Gupta</div>
+            <div class="text-[12px] text-ink/62">Gachibowli &middot; Emergency Care</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="relative rounded-[24px] bg-white border border-deep/10 p-7 card-hover shadow-soft" data-reveal style="--d:320ms">
+        <div class="flex items-center gap-1.5">
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+          <svg viewBox="0 0 24 24" class="w-4 h-4 star" fill="currentColor"><path d="M12 2l2.6 6.3 6.9.5-5.3 4.5 1.7 6.7L12 16.6 6.1 20l1.7-6.7L2.5 8.8l6.9-.5z"/></svg>
+        </div>
+        <p class="mt-5 text-[15px] leading-[1.85] text-ink/82">
+          "My aligner treatment with Dr. Priya took just under a year and my smile has completely changed.
+          The digital scans and 3D previews made the whole process so clear and exciting."
+        </p>
+        <div class="mt-6 flex items-center gap-3.5">
+          <div class="w-12 h-12 rounded-full overflow-hidden bg-aqua">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80" alt="Portrait of Meera Iyer" class="w-full h-full object-cover" loading="lazy" decoding="async" onerror="this.style.opacity=0" />
+          </div>
+          <div>
+            <div class="text-[14px] font-700 text-navy">Meera Iyer</div>
+            <div class="text-[12px] text-ink/62">Kondapur &middot; Clear Aligners</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="rounded-[24px] bg-aqua border border-teal/15 p-7 flex flex-col justify-between card-hover" data-reveal style="--d:380ms">
+        <div>
+          <div class="w-11 h-11 rounded-xl bg-teal text-white flex items-center justify-center">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3 class="mt-5 text-[21px] font-700 text-navy leading-snug">Share your SmileCare experience</h3>
+          <p class="mt-3 text-[14px] leading-relaxed text-ink/75">
+            Your feedback helps us keep improving and helps other patients find the right care. We'd love to hear from you.
+          </p>
+        </div>
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%27d%20like%20to%20share%20my%20experience." target="_blank" rel="noopener"
+           class="magnetic mt-7 inline-flex items-center justify-center gap-2 rounded-full bg-deep text-white px-6 py-3.5 text-[14px] font-700 hover:bg-teal transition-colors">
+          Write a review
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="relative py-20 lg:py-28 bg-white overflow-hidden">
+  <div class="ambient" style="width:420px;height:420px;background:#DCEBF7;bottom:-160px;left:-140px;opacity:.55;"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16">
+
+      <div class="lg:sticky lg:top-28 lg:self-start">
+        <div class="inline-flex items-center gap-2 rounded-full bg-aqua px-4 py-2 text-[12px] font-700 uppercase tracking-[0.18em] text-teal" data-reveal>
+          <span class="w-1.5 h-1.5 rounded-full bg-teal"></span> FAQ
+        </div>
+        <h2 class="mt-6 font-display text-[34px] sm:text-[46px] lg:text-[52px] leading-[1.08] font-600 text-navy tracking-[-0.02em]" data-reveal style="--d:80ms">
+          Your questions, <span class="text-teal">answered</span>
+        </h2>
+        <p class="mt-6 text-[16.5px] leading-[1.8] text-ink/75 max-w-[480px]" data-reveal style="--d:150ms">
+          Can't find what you're looking for? Send us a message on WhatsApp — our team is happy to help with any query,
+          big or small.
+        </p>
+
+        <a href="https://wa.me/919876543210?text=Hi%20SmileCare!%20I%20have%20a%20question%20about%20my%20dental%20treatment." target="_blank" rel="noopener"
+           class="magnetic btn-wa mt-8 inline-flex items-center gap-2.5 rounded-full text-white px-7 py-4 text-[15px] font-700 shadow-glow" data-reveal style="--d:210ms">
+          <svg viewBox="0 0 32 32" class="w-5 h-5" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+          Ask a question
+        </a>
+
+        <div class="mt-9 rounded-2xl border border-deep/10 bg-sand p-6" data-reveal style="--d:260ms">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-deep text-white flex items-center justify-center">
+              <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+            </div>
+            <div>
+              <div class="text-[13px] uppercase tracking-[0.14em] text-ink/62 font-700">Call us directly</div>
+              <a href="tel:+919876543210" class="text-[19px] font-700 text-deep hover:text-teal transition-colors">+91 98765 43210</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion -->
+      <div class="space-y-4">
+        <div class="faq-item open rounded-2xl border border-deep/12 bg-sand overflow-hidden" data-reveal style="--d:60ms">
+          <button class="faq-btn w-full flex items-start gap-4 text-left p-6" aria-expanded="true">
+            <span class="faq-icon shrink-0 w-9 h-9 rounded-full border border-deep/20 text-deep flex items-center justify-center text-[20px] leading-none">+</span>
+            <span class="flex-1">
+              <span class="block text-[16.5px] sm:text-[17.5px] font-700 text-navy leading-snug">How do I book an appointment at SmileCare?</span>
+            </span>
+          </button>
+          <div class="faq-body px-6 pb-6 pl-[76px]">
+            <p class="text-[14.5px] leading-[1.85] text-ink/75">
+              The quickest way is to tap any "Book Appointment" button on this website — it opens WhatsApp with a pre-filled
+              message. You can also call us at +91 98765 43210 or use the appointment form above. Our team typically responds
+              within minutes during clinic hours.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item rounded-2xl border border-deep/12 bg-sand overflow-hidden" data-reveal style="--d:110ms">
+          <button class="faq-btn w-full flex items-start gap-4 text-left p-6" aria-expanded="false">
+            <span class="faq-icon shrink-0 w-9 h-9 rounded-full border border-deep/20 text-deep flex items-center justify-center text-[20px] leading-none">+</span>
+            <span class="flex-1"><span class="block text-[16.5px] sm:text-[17.5px] font-700 text-navy leading-snug">What are your clinic timings?</span></span>
+          </button>
+          <div class="faq-body px-6 pb-6 pl-[76px]">
+            <p class="text-[14.5px] leading-[1.85] text-ink/75">
+              We're open Monday to Saturday from 9:00 AM to 8:00 PM. We are closed on Sundays, though urgent cases can
+              reach us on WhatsApp for guidance and emergency scheduling.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item rounded-2xl border border-deep/12 bg-sand overflow-hidden" data-reveal style="--d:160ms">
+          <button class="faq-btn w-full flex items-start gap-4 text-left p-6" aria-expanded="false">
+            <span class="faq-icon shrink-0 w-9 h-9 rounded-full border border-deep/20 text-deep flex items-center justify-center text-[20px] leading-none">+</span>
+            <span class="flex-1"><span class="block text-[16.5px] sm:text-[17.5px] font-700 text-navy leading-snug">Is dental treatment painful?</span></span>
+          </button>
+          <div class="faq-body px-6 pb-6 pl-[76px]">
+            <p class="text-[14.5px] leading-[1.85] text-ink/75">
+              Modern dentistry is far more comfortable than most people expect. We use effective local anaesthesia,
+              gentle techniques and, where appropriate, sedation options to ensure a pain-free experience. We'll always
+              explain each step before we begin.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item rounded-2xl border border-deep/12 bg-sand overflow-hidden" data-reveal style="--d:210ms">
+          <button class="faq-btn w-full flex items-start gap-4 text-left p-6" aria-expanded="false">
+            <span class="faq-icon shrink-0 w-9 h-9 rounded-full border border-deep/20 text-deep flex items-center justify-center text-[20px] leading-none">+</span>
+            <span class="flex-1"><span class="block text-[16.5px] sm:text-[17.5px] font-700 text-navy leading-snug">How often should I visit the dentist?</span></span>
+          </button>
+          <div class="faq-body px-6 pb-6 pl-[76px]">
+            <p class="text-[14.5px] leading-[1.85] text-ink/75">
+              We recommend a routine check-up and professional cleaning every six months. Regular visits help us detect
+              issues early, keep gum disease at bay, and save you from more extensive (and expensive) treatment later.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item rounded-2xl border border-deep/12 bg-sand overflow-hidden" data-reveal style="--d:260ms">
+          <button class="faq-btn w-full flex items-start gap-4 text-left p-6" aria-expanded="false">
+            <span class="faq-icon shrink-0 w-9 h-9 rounded-full border border-deep/20 text-deep flex items-center justify-center text-[20px] leading-none">+</span>
+            <span class="flex-1"><span class="block text-[16.5px] sm:text-[17.5px] font-700 text-navy leading-snug">Do you treat children and elderly patients?</span></span>
+          </button>
+          <div class="faq-body px-6 pb-6 pl-[76px]">
+            <p class="text-[14.5px] leading-[1.85] text-ink/75">
+              Absolutely. SmileCare is a family dental practice. We see patients of every age — from a child's first
+              dental visit and preventive fluoride treatments to dentures, implants and geriatric oral care.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item rounded-2xl border border-deep/12 bg-sand overflow-hidden" data-reveal style="--d:310ms">
+          <button class="faq-btn w-full flex items-start gap-4 text-left p-6" aria-expanded="false">
+            <span class="faq-icon shrink-0 w-9 h-9 rounded-full border border-deep/20 text-deep flex items-center justify-center text-[20px] leading-none">+</span>
+            <span class="flex-1"><span class="block text-[16.5px] sm:text-[17.5px] font-700 text-navy leading-snug">What is the cost of treatment?</span></span>
+          </button>
+          <div class="faq-body px-6 pb-6 pl-[76px]">
+            <p class="text-[14.5px] leading-[1.85] text-ink/75">
+              Costs vary depending on the treatment and clinical condition. After your examination, we provide a detailed,
+              transparent estimate before starting any procedure — with flexible payment options available for
+              longer treatment plans.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item rounded-2xl border border-deep/12 bg-sand overflow-hidden" data-reveal style="--d:360ms">
+          <button class="faq-btn w-full flex items-start gap-4 text-left p-6" aria-expanded="false">
+            <span class="faq-icon shrink-0 w-9 h-9 rounded-full border border-deep/20 text-deep flex items-center justify-center text-[20px] leading-none">+</span>
+            <span class="flex-1"><span class="block text-[16.5px] sm:text-[17.5px] font-700 text-navy leading-snug">Do you handle dental emergencies?</span></span>
+          </button>
+          <div class="faq-body px-6 pb-6 pl-[76px]">
+            <p class="text-[14.5px] leading-[1.85] text-ink/75">
+              Yes. For severe tooth pain, swelling, dental trauma or a broken tooth, message us on WhatsApp or call
+              directly — we reserve same-day slots for urgent care whenever possible.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item rounded-2xl border border-deep/12 bg-sand overflow-hidden" data-reveal style="--d:410ms">
+          <button class="faq-btn w-full flex items-start gap-4 text-left p-6" aria-expanded="false">
+            <span class="faq-icon shrink-0 w-9 h-9 rounded-full border border-deep/20 text-deep flex items-center justify-center text-[20px] leading-none">+</span>
+            <span class="flex-1"><span class="block text-[16.5px] sm:text-[17.5px] font-700 text-navy leading-snug">Where exactly is the clinic located?</span></span>
+          </button>
+          <div class="faq-body px-6 pb-6 pl-[76px]">
+            <p class="text-[14.5px] leading-[1.85] text-ink/75">
+              We're at 42, Road No. 36, Jubilee Hills, Hyderabad, Telangana 500033 — easily accessible from Banjara Hills,
+              Madhapur and Gachibowli, with parking available on-site.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="relative py-20 lg:py-28 bg-sand overflow-hidden">
+  <div class="absolute inset-0 grain opacity-40 pointer-events-none"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-2xl mx-auto text-center">
+      <div class="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-[12px] font-700 uppercase tracking-[0.18em] text-teal shadow-soft" data-reveal>
+        <span class="w-1.5 h-1.5 rounded-full bg-teal"></span> Visit Us
+      </div>
+      <h2 class="mt-6 font-display text-[34px] sm:text-[46px] lg:text-[52px] leading-[1.08] font-600 text-navy tracking-[-0.02em]" data-reveal style="--d:80ms">
+        Come see us in <span class="text-teal">Jubilee Hills</span>
+      </h2>
+      <p class="mt-5 text-[16.5px] sm:text-[18px] leading-[1.75] text-ink/75" data-reveal style="--d:150ms">
+        We'd love to welcome you to our clinic. Reach out by phone, email or WhatsApp — or simply drop in during clinic hours.
+      </p>
+    </div>
+
+    <div class="mt-14 grid lg:grid-cols-5 gap-8">
+
+      <!-- Info cards -->
+      <div class="lg:col-span-2 space-y-5">
+        <div class="rounded-2xl bg-white border border-deep/10 p-6 flex items-start gap-4 card-hover" data-reveal style="--d:60ms">
+          <div class="w-11 h-11 rounded-xl bg-aqua text-deep flex items-center justify-center shrink-0">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <h3 class="text-[15px] font-700 text-navy">Clinic Address</h3>
+            <p class="mt-1.5 text-[14px] leading-relaxed text-ink/72">42, Road No. 36, Jubilee Hills,<br />Hyderabad, Telangana 500033</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=42+Road+No+36+Jubilee+Hills+Hyderabad+Telangana+500033" target="_blank" rel="noopener"
+               class="mt-2.5 inline-flex items-center gap-1.5 text-[13px] font-700 text-teal hover:text-deep transition-colors">
+              Get directions
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="rounded-2xl bg-white border border-deep/10 p-6 flex items-start gap-4 card-hover" data-reveal style="--d:110ms">
+          <div class="w-11 h-11 rounded-xl bg-softblue text-deep flex items-center justify-center shrink-0">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          </div>
+          <div>
+            <h3 class="text-[15px] font-700 text-navy">Phone &amp; WhatsApp</h3>
+            <a href="tel:+919876543210" class="mt-1.5 block text-[15px] font-600 text-ink hover:text-teal transition-colors">+91 98765 43210</a>
+            <a href="https://wa.me/919876543210?text=Hello%20SmileCare%20Dental%20Clinic!" target="_blank" rel="noopener"
+               class="mt-1 inline-flex items-center gap-1.5 text-[13px] font-700 text-waDark hover:text-wa transition-colors">
+              <svg viewBox="0 0 32 32" class="w-4 h-4" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+              Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="rounded-2xl bg-white border border-deep/10 p-6 flex items-start gap-4 card-hover" data-reveal style="--d:160ms">
+          <div class="w-11 h-11 rounded-xl bg-aqua2 text-deep flex items-center justify-center shrink-0">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M3 7l9 6 9-6"/></svg>
+          </div>
+          <div>
+            <h3 class="text-[15px] font-700 text-navy">Email</h3>
+            <a href="mailto:hello@smilecareclinic.example" class="mt-1.5 block text-[14px] font-600 text-ink hover:text-teal transition-colors break-all">hello@smilecareclinic.example</a>
+            <p class="mt-1.5 text-[12.5px] text-ink/62">We reply within 24 hours</p>
+          </div>
+        </div>
+
+        <div class="rounded-2xl bg-white border border-deep/10 p-6 flex items-start gap-4 card-hover" data-reveal style="--d:210ms">
+          <div class="w-11 h-11 rounded-xl bg-deep text-white flex items-center justify-center shrink-0">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </div>
+          <div>
+            <h3 class="text-[15px] font-700 text-navy">Opening Hours</h3>
+            <div class="mt-2 space-y-1.5 text-[13.5px] text-ink/72">
+              <div class="flex items-center justify-between gap-6">
+                <span>Monday – Saturday</span>
+                <span class="font-700 text-navy whitespace-nowrap">9:00 AM – 8:00 PM</span>
+              </div>
+              <div class="flex items-center justify-between gap-6">
+                <span>Sunday</span>
+                <span class="font-700 text-red-500 whitespace-nowrap">Closed</span>
+              </div>
+            </div>
+            <div class="mt-3 inline-flex items-center gap-2 rounded-full bg-wa/12 px-3 py-1.5">
+              <span class="w-2 h-2 rounded-full bg-wa"></span>
+              <span class="text-[11.5px] font-700 text-waDark">Open now · Walk-ins welcome</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="lg:col-span-3" data-reveal="right" style="--d:100ms">
+        <div class="rounded-[26px] overflow-hidden border border-deep/12 shadow-lift bg-white h-full min-h-[420px]">
+          <iframe
+            title="Map showing SmileCare Dental Clinic location in Jubilee Hills, Hyderabad"
+            src="https://www.google.com/maps?q=Road%20No.%2036%2C%20Jubilee%20Hills%2C%20Hyderabad%2C%20Telangana%20500033&output=embed"
+            width="100%" height="100%" style="border:0;min-height:420px;display:block;"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA banner -->
+    <div class="mt-14 rounded-[28px] overflow-hidden relative" data-reveal>
+      <div class="absolute inset-0 bg-gradient-to-r from-deep via-teal to-deep"></div>
+      <div class="absolute inset-0 opacity-[0.14]" style="background-image:radial-gradient(rgba(255,255,255,.6) 1px, transparent 1px); background-size:22px 22px;"></div>
+      <div class="relative px-7 sm:px-12 py-12 sm:py-14 flex flex-col lg:flex-row items-center justify-between gap-8">
+        <div class="text-center lg:text-left">
+          <h3 class="font-display text-[27px] sm:text-[36px] leading-[1.15] font-600 text-white">Ready for a healthier, happier smile?</h3>
+          <p class="mt-3.5 text-white/80 text-[15.5px] sm:text-[17px] max-w-[520px] leading-relaxed">
+            Book your appointment in under a minute — message us on WhatsApp and our team will take care of the rest.
+          </p>
+        </div>
+        <div class="flex flex-col sm:flex-row items-center gap-3.5 shrink-0">
+          <a href="https://wa.me/919876543210?text=Hello%20SmileCare%20Dental%20Clinic!%20I%27d%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener"
+             class="magnetic btn-wa inline-flex items-center gap-2.5 rounded-full text-white px-8 py-4 text-[15.5px] font-700 shadow-glow">
+            <svg viewBox="0 0 32 32" class="w-5 h-5" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+            Book on WhatsApp
+          </a>
+          <a href="tel:+919876543210"
+             class="magnetic inline-flex items-center gap-2.5 rounded-full border border-white/35 text-white px-8 py-4 text-[15.5px] font-700 hover:bg-white hover:text-deep transition-colors duration-300">
+            <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+            Call Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="relative bg-navy text-white overflow-hidden">
+  <div class="absolute inset-0 opacity-[0.07]" style="background-image:radial-gradient(rgba(255,255,255,.7) 1px, transparent 1px); background-size:26px 26px;"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 lg:pt-20 pb-10">
+    <div class="grid gap-10 lg:gap-12 md:grid-cols-2 lg:grid-cols-4">
+
+      <!-- Brand -->
+      <div class="lg:col-span-1">
+        <a href="#home" class="flex items-center gap-3">
+          <span class="w-12 h-12 rounded-2xl bg-gradient-to-br from-teal to-deep flex items-center justify-center">
+            <svg viewBox="0 0 24 24" class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.6c-1.9 0-2.9-1.1-4.9-1.1C4.4 1.5 3 3.2 3 6.1c0 4 1.5 6.1 2.5 9.1.7 2.1 1 5.2 2 5.2s1.1-3 1.9-5.1c.4-1 1.1-1.5 2.6-1.5s2.2.5 2.6 1.5c.8 2.1.9 5.1 1.9 5.1s1.3-3.1 2-5.2c1-3 2.5-5.1 2.5-9.1 0-2.9-1.4-4.6-4.1-4.6-2 0-3 1.1-4.9 1.1z"/></svg>
+          </span>
+          <span>
+            <span class="block font-display text-[21px] font-600 text-white leading-tight">SmileCare</span>
+            <span class="block text-[10px] uppercase tracking-[0.22em] text-aqua2 font-600">Dental Clinic</span>
+          </span>
+        </a>
+
+        <p class="mt-5 text-[14px] leading-[1.85] text-white/68 max-w-[300px]">
+          Healthy Smiles. Confident You. Comprehensive dental care for the whole family, delivered with modern
+          technology and a gentle approach in Jubilee Hills, Hyderabad.
+        </p>
+
+        <div class="mt-6">
+          <a href="https://wa.me/919876543210?text=Hello%20SmileCare%20Dental%20Clinic!%20I%27d%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener"
+             class="btn-wa inline-flex items-center gap-2.5 rounded-full text-white px-6 py-3.5 text-[14px] font-700">
+            <svg viewBox="0 0 32 32" class="w-[18px] h-[18px]" fill="currentColor"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71z"/></svg>
+            Book on WhatsApp
+          </a>
+        </div>
+
+        <div class="flex items-center gap-3 mt-6">
+          <a href="#" aria-label="SmileCare on Facebook" class="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center text-white/72 hover:bg-white hover:text-navy transition-colors duration-300">
+            <svg viewBox="0 0 24 24" class="w-[18px] h-[18px]" fill="currentColor"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h2.6l.4-3H13v-2c0-.6.4-1 1-1z"/></svg>
+          </a>
+          <a href="#" aria-label="SmileCare on Instagram" class="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center text-white/72 hover:bg-white hover:text-navy transition-colors duration-300">
+            <svg viewBox="0 0 24 24" class="w-[18px] h-[18px]" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" aria-label="SmileCare on YouTube" class="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center text-white/72 hover:bg-white hover:text-navy transition-colors duration-300">
+            <svg viewBox="0 0 24 24" class="w-[18px] h-[18px]" fill="currentColor"><path d="M22 12s0-3.2-.4-4.7a2.5 2.5 0 0 0-1.8-1.8C18.3 5 12 5 12 5s-6.3 0-7.8.5a2.5 2.5 0 0 0-1.8 1.8C2 8.8 2 12 2 12s0 3.2.4 4.7c.2.9.9 1.6 1.8 1.8C5.7 19 12 19 12 19s6.3 0 7.8-.5a2.5 2.5 0 0 0 1.8-1.8c.4-1.5.4-4.7.4-4.7zM10 15.2V8.8L15.5 12z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick links -->
+      <div>
+        <h3 class="text-[13px] uppercase tracking-[0.2em] text-aqua2 font-700">Quick Links</h3>
+        <ul class="mt-5 space-y-3">
+          <li><a href="#home" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">Home</a></li>
+          <li><a href="#about" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">About Us</a></li>
+          <li><a href="#treatments" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">Treatments</a></li>
+          <li><a href="#doctors" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">Our Doctors</a></li>
+          <li><a href="#testimonials" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">Testimonials</a></li>
+          <li><a href="#faq" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">FAQ</a></li>
+          <li><a href="#contact" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Treatments -->
+      <div>
+        <h3 class="text-[13px] uppercase tracking-[0.2em] text-aqua2 font-700">Our Treatments</h3>
+        <ul class="mt-5 space-y-3">
+          <li><a href="#treatments" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">General Dentistry</a></li>
+          <li><a href="#treatments" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">Teeth Whitening</a></li>
+          <li><a href="#treatments" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">Dental Implants</a></li>
+          <li><a href="#treatments" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">Braces &amp; Aligners</a></li>
+          <li><a href="#treatments" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">Root Canal Treatment</a></li>
+          <li><a href="#treatments" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">Pediatric Dentistry</a></li>
+          <li><a href="#treatments" class="text-[14px] text-white/70 hover:text-white hover:pl-1.5 transition-all duration-300 inline-block">Cosmetic Dentistry</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h3 class="text-[13px] uppercase tracking-[0.2em] text-aqua2 font-700">Get In Touch</h3>
+        <ul class="mt-5 space-y-4">
+          <li class="flex items-start gap-3">
+            <svg viewBox="0 0 24 24" class="w-[18px] h-[18px] text-aqua2 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span class="text-[13.5px] leading-[1.75] text-white/72">42, Road No. 36, Jubilee Hills,<br />Hyderabad, Telangana 500033</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg viewBox="0 0 24 24" class="w-[18px] h-[18px] text-aqua2 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+            <div class="text-[13.5px] text-white/72">
+              <a href="tel:+919876543210" class="block hover:text-white transition-colors">+91 98765 43210</a>
+              <span class="text-white/50 text-[12px]">WhatsApp available</span>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg viewBox="0 0 24 24" class="w-[18px] h-[18px] text-aqua2 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M3 7l9 6 9-6"/></svg>
+            <a href="mailto:hello@smilecareclinic.example" class="text-[13.5px] text-white/72 hover:text-white transition-colors break-all">hello@smilecareclinic.example</a>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg viewBox="0 0 24 24" class="w-[18px] h-[18px] text-aqua2 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <div class="text-[13.5px] text-white/72 leading-[1.75]">
+              Mon – Sat: 9:00 AM – 8:00 PM<br />Sunday: Closed
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="mt-12 pt-7 border-t border-white/12 flex flex-col sm:flex-row items-center justify-between gap-5">
+      <p class="text-[12.5px] text-white/55 text-center sm:text-left">
+        © <span id="year">2024</span> SmileCare Dental Clinic. All rights reserved. | Healthy Smiles. Confident You.
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+        <a href="#" class="text-[12.5px] text-white/55 hover:text-white transition-colors">Privacy Policy</a>
+        <a href="#" class="text-[12.5px] text-white/55 hover:text-white transition-colors">Terms of Service</a>
+        <a href="#" class="text-[12.5px] text-white/55 hover:text-white transition-colors">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/919876543210?text=Hello%20SmileCare%20Dental%20Clinic!%20I%27d%20like%20to%20book%20an%20appointment."
+   target="_blank" rel="noopener" aria-label="Book an appointment on WhatsApp"
+   class="fixed z-40 bottom-5 right-5 sm:bottom-7 sm:right-7 group">
+  <span class="absolute inset-0 rounded-full bg-wa/45 animate-ping"></span>
+  <span class="relative flex items-center gap-3 rounded-full bg-wa text-white pl-4 pr-5 py-3.5 shadow-glow transition-transform duration-300 group-hover:scale-[1.06]">
+    <svg viewBox="0 0 32 32" class="w-6 h-6" fill="currentColor" aria-hidden="true"><path d="M16.04 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.6 4.47 1.73 6.42L3.2 28.8l6.55-1.71a12.74 12.74 0 0 0 6.29 1.62c7.06 0 12.8-5.74 12.8-12.8s-5.74-12.71-12.8-12.71zm5.82 20.85c-1.99 0-3.94-.53-5.65-1.54l-.4-.24-4.19 1.1 1.12-4.08-.26-.42a10.5 10.5 0 0 1-1.61-5.62c0-5.83 4.75-10.58 10.59-10.58 5.83 0 10.58 4.75 10.58 10.58 0 5.84-4.75 10.9-10.18 10.9z"/></svg>
+    <span class="text-[13.5px] font-700 hidden sm:inline">Book on WhatsApp</span>
+  </span>
+</a>
+
+<script>
+(function () {
+  'use strict';
+
+  var prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- Year ---------- */
+  var yearEl = document.getElementById('year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  /* ---------- Header + scroll progress ---------- */
+  var header = document.getElementById('header');
+  var progress = document.getElementById('progress');
+  var ticking = false;
+
+  function onScroll() {
+    var y = window.pageYOffset || document.documentElement.scrollTop;
+    if (header) header.classList.toggle('scrolled', y > 24);
+
+    if (progress) {
+      var doc = document.documentElement;
+      var max = (doc.scrollHeight - window.innerHeight) || 1;
+      var pct = Math.min(1, Math.max(0, y / max));
+      progress.style.transform = 'scaleX(' + pct + ')';
+    }
+
+    /* active nav */
+    var sections = ['home', 'about', 'treatments', 'doctors', 'testimonials', 'faq', 'contact'];
+    var current = 'home';
+    for (var i = 0; i < sections.length; i++) {
+      var el = document.getElementById(sections[i]);
+      if (el && el.getBoundingClientRect().top <= 140) current = sections[i];
+    }
+    var links = document.querySelectorAll('.nav-link');
+    links.forEach(function (link) {
+      var href = link.getAttribute('href') || '';
+      link.classList.toggle('active', href === '#' + current);
+    });
+
+    ticking = false;
+  }
+
+  window.addEventListener('scroll', function () {
+    if (!ticking) {
+      window.requestAnimationFrame(onScroll);
+      ticking = true;
+    }
+  }, { passive: true });
+  onScroll();
+
+  /* ---------- Mobile menu ---------- */
+  var menuBtn = document.getElementById('menuBtn');
+  var mobileMenu = document.getElementById('mobileMenu');
+  var menuIcon = document.getElementById('menuIcon');
+
+  function setMenu(open) {
+    if (!mobileMenu || !menuBtn) return;
+    mobileMenu.classList.toggle('open', open);
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    if (menuIcon) {
+      menuIcon.innerHTML = open
+        ? '<path d="M6 6l12 12M18 6L6 18"/>'
+        : '<path d="M4 7h16M4 12h16M4 17h16"/>';
+    }
+  }
+
+  if (menuBtn) {
+    menuBtn.addEventListener('click', function () {
+      setMenu(!mobileMenu.classList.contains('open'));
+    });
+  }
+  if (mobileMenu) {
+    mobileMenu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () { setMenu(false); });
+    });
+  }
+  window.addEventListener('resize', function () {
+    if (window.innerWidth >= 1024) setMenu(false);
+  });
+
+  /* ---------- Reveal on scroll ---------- */
+  var revealEls = document.querySelectorAll('[data-reveal]');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    revealEls.forEach(function (el) { io.observe(el); });
+  } else {
+    revealEls.forEach(function (el) { el.classList.add('is-visible'); });
+  }
+
+  /* ---------- Animated counters ---------- */
+  var counters = document.querySelectorAll('[data-count]');
+  function animateCount(el) {
+    if (el.dataset.done === '1') return;
+    el.dataset.done = '1';
+    var target = parseFloat(el.getAttribute('data-count')) || 0;
+    var decimals = parseInt(el.getAttribute('data-decimals') || '0', 10);
+    var suffix = el.getAttribute('data-suffix') || '';
+    var duration = 1600;
+    var start = null;
+
+    if (prefersReduced) {
+      el.textContent = target.toFixed(decimals) + suffix;
+      return;
+    }
+
+    function step(ts) {
+      if (!start) start = ts;
+      var p = Math.min(1, (ts - start) / duration);
+      var eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = (target * eased).toFixed(decimals) + suffix;
+      if (p < 1) window.requestAnimationFrame(step);
+      else el.textContent = target.toFixed(decimals) + suffix;
+    }
+    window.requestAnimationFrame(step);
+  }
+
+  if ('IntersectionObserver' in window) {
+    var cio = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          animateCount(e.target);
+          cio.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    counters.forEach(function (c) { cio.observe(c); });
+  } else {
+    counters.forEach(animateCount);
+  }
+
+  /* ---------- FAQ accordion ---------- */
+  var faqBtns = document.querySelectorAll('.faq-btn');
+  faqBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var item = btn.closest('.faq-item');
+      var isOpen = item.classList.contains('open');
+
+      document.querySelectorAll('.faq-item').forEach(function (other) {
+        if (other !== item) {
+          other.classList.remove('open');
+          var ob = other.querySelector('.faq-btn');
+          if (ob) ob.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      item.classList.toggle('open', !isOpen);
+      btn.setAttribute('aria-expanded', !isOpen ? 'true' : 'false');
+    });
+  });
+
+  /* ---------- Before / After sliders ---------- */
+  var baInstances = document.querySelectorAll('[data-ba]');
+  baInstances.forEach(function (wrap) {
+    var after = wrap.querySelector('[data-ba-after]');
+    var handle = wrap.querySelector('[data-ba-handle]');
+    if (!after || !handle) return;
+
+    var dragging = false;
+
+    function setPosition(clientX) {
+      var rect = wrap.getBoundingClientRect();
+      var x = clientX - rect.left;
+      var pct = Math.max(3, Math.min(97, (x / rect.width) * 100));
+      after.style.width = pct + '%';
+      handle.style.left = pct + '%';
+    }
+
+    function start(e) {
+      dragging = true;
+      wrap.style.cursor = 'ew-resize';
+      var clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      setPosition(clientX);
+    }
+    function move(e) {
+      if (!dragging) return;
+      var clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      setPosition(clientX);
+      if (e.cancelable && e.touches) e.preventDefault();
+    }
+    function end() { dragging = false; }
+
+    wrap.addEventListener('mousedown', start);
+    window.addEventListener('mousemove', move);
+    window.addEventListener('mouseup', end);
+
+    wrap.addEventListener('touchstart', start, { passive: true });
+    window.addEventListener('touchmove', move, { passive: false });
+    window.addEventListener('touchend', end);
+
+    /* hover preview on desktop */
+    wrap.addEventListener('mousemove', function (e) {
+      if (dragging || prefersReduced) return;
+      var rect = wrap.getBoundingClientRect();
+      var pct = Math.max(3, Math.min(97, ((e.clientX - rect.left) / rect.width) * 100));
+      after.style.width = pct + '%';
+      handle.style.left = pct + '%';
+    });
+  });
+
+  /* ---------- Magnetic buttons ---------- */
+  if (!prefersReduced && window.matchMedia('(hover:hover)').matches) {
+    document.querySelectorAll('.magnetic').forEach(function (btn) {
+      btn.addEventListener('mousemove', function (e) {
+        var rect = btn.getBoundingClientRect();
+        var x = e.clientX - rect.left - rect.width / 2;
+        var y = e.clientY - rect.top - rect.height / 2;
+        btn.style.transform = 'translate(' + (x * 0.16) + 'px,' + (y * 0.22) + 'px)';
+      });
+      btn.addEventListener('mouseleave', function () {
+        btn.style.transform = 'translate(0,0)';
+      });
+    });
+  }
+
+  /* ---------- Booking form -> WhatsApp ---------- */
+  var form = document.getElementById('bookingForm');
+  var errorBox = document.getElementById('formError');
+
+  if (form) {
+    /* set min date to today */
+    var dateInput = document.getElementById('date');
+    if (dateInput) {
+      var today = new Date();
+      var iso = today.getFullYear() + '-' +
+        String(today.getMonth() + 1).padStart(2, '0') + '-' +
+        String(today.getDate()).padStart(2, '0');
+      dateInput.setAttribute('min', iso);
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      var name = (document.getElementById('name') || {}).value || '';
+      var phone = (document.getElementById('phone') || {}).value || '';
+      var treatment = (document.getElementById('treatment') || {}).value || '';
+      var date = (document.getElementById('date') || {}).value || '';
+      var time = (document.getElementById('time') || {}).value || '';
+      var message = (document.getElementById('message') || {}).value || '';
+
+      name = name.trim();
+      phone = phone.trim();
+
+      function showError(msg) {
+        if (!errorBox) return;
+        errorBox.textContent = msg;
+        errorBox.classList.remove('hidden');
+      }
+
+      if (!name) {
+        showError('Please enter your full name.');
+        document.getElementById('name').focus();
+        return;
+      }
+      if (!phone || phone.replace(/\D/g, '').length < 8) {
+        showError('Please enter a valid phone number.');
+        document.getElementById('phone').focus();
+        return;
+      }
+      if (errorBox) errorBox.classList.add('hidden');
+
+      var lines = [
+        'Hello SmileCare Dental Clinic!',
+        '',
+        'I would like to book an appointment.',
+        '',
+        'Name: ' + name,
+        'Phone: ' + phone,
+        'Treatment: ' + treatment
+      ];
+      if (date) lines.push('Preferred Date: ' + date);
+      if (time) lines.push('Preferred Time: ' + time);
+      if (message && message.trim()) lines.push('Message: ' + message.trim());
+      lines.push('', 'Thank you!');
+
+      var url = 'https://wa.me/919876543210?text=' + encodeURIComponent(lines.join('\n'));
+      window.open(url, '_blank', 'noopener');
+    });
+  }
+
+  /* ---------- Smooth anchor scrolling with header offset ---------- */
+  document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+    anchor.addEventListener('click', function (e) {
+      var id = anchor.getAttribute('href');
+      if (!id || id === '#' || id.length < 2) return;
+      var target = document.querySelector(id);
+      if (!target) return;
+      e.preventDefault();
+
+      var headerHeight = header ? header.offsetHeight : 72;
+      var top = target.getBoundingClientRect().top + window.pageYOffset - headerHeight - 12;
+
+      window.scrollTo({
+        top: Math.max(0, top),
+        behavior: prefersReduced ? 'auto' : 'smooth'
+      });
+
+      /* move focus for accessibility */
+      target.setAttribute('tabindex', '-1');
+      try { target.focus({ preventScroll: true }); } catch (err) { target.focus(); }
+    });
+  });
+
+  /* ---------- Subtle hero parallax (desktop only) ---------- */
+  if (!prefersReduced && window.innerWidth > 1024) {
+    var heroImgs = document.querySelectorAll('.float-slow, .float-slower');
+    window.addEventListener('scroll', function () {
+      var y = window.pageYOffset;
+      if (y > 900) return;
+      heroImgs.forEach(function (el, i) {
+        var factor = i % 2 === 0 ? 0.045 : -0.035;
+        el.style.setProperty('translate', '0 ' + (y * factor) + 'px');
+      });
+    }, { passive: true });
+  }
+
+})();
+</script>
+
+</body>
+</html>
